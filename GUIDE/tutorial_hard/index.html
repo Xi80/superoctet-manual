@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
     
-    <title>インプリメンテーション - すーぱーおくてっと！取扱説明書</title>
+    <title>本体の操作 - すーぱーおくてっと！取扱説明書</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -75,25 +75,25 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">使い方ガイド <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../GUIDE/tutorial_init/">電源投入まで</a>
+    <a href="../tutorial_init/">電源投入まで</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">本体の操作</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../GUIDE/tutorial_hard/">本体の操作</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../GUIDE/tutorial_play/">PCで使う</a>
+    <a href="../tutorial_play/">PCで使う</a>
 </li>
 
                         
@@ -108,19 +108,19 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">MIDI仕様 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li class="active">
-    <a href="./">インプリメンテーション</a>
+<li >
+    <a href="../../MIDI_SPEC/impl/">インプリメンテーション</a>
 </li>
 
                         
                             
 <li >
-    <a href="../sysex/">システムエクスクルーシブ</a>
+    <a href="../../MIDI_SPEC/sysex/">システムエクスクルーシブ</a>
 </li>
 
                         
@@ -159,111 +159,11 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#midi">MIDIインプリメンテーション</a></li>
-            <li class="second-level"><a href="#_1">インプリメンテーションチャート</a></li>
-                
-            <li class="second-level"><a href="#rpn">受信するRPN</a></li>
-                
-            <li class="second-level"><a href="#_2">プログラムバンク</a></li>
-                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="midi">MIDIインプリメンテーション</h1>
-<h2 id="_1">インプリメンテーションチャート</h2>
-<pre><code class="language-text">+------------------------------------------------------------------------+
-|                   |   Transmitted   |   Recognized   |     Remarks     |
-|      Function...  |                 |                |                 |
-|-------------------+-----------------+----------------+-----------------|
-|Basic    Default   |x                |1-16            |                 |
-|Channel  Changed   |x                |x               |                 |
-|-------------------+-----------------+----------------+-----------------|
-|         Default   |x                |3               |                 |
-|Mode     Messages  |x                |3               |                 |
-|         Altered   |*****************|3               |                 |
-|-------------------+-----------------+----------------+-----------------|
-|Note               |x                |0-127           |                 |
-|Number : True Voice|*****************|0-127           |                 |
-|-------------------+-----------------+----------------+-----------------|
-|Velocity Note ON   |x                |o 9nH,v=1-127   |                 |
-|Velocity Note OFF  |x                |x               |                 |
-|-------------------+-----------------+----------------+-----------------|
-|After    Key's     |x                |x               |                 |
-|Touch    Ch's      |x                |x               |                 |
-|-------------------+-----------------+----------------+-----------------|
-|Pitch Bender       |x                |o 0-24 semi     |                 |
-|-------------------+-----------------+----------------+-----------------|
-|                  0|x                |o               |Bank Select(MSB) |
-|            7,10,11|x                |o               |                 |
-| Control          6|x                |o               |Data Entry(MSB)  |
-|                 64|x                |o               |Hold 1           |
-| Change     100,101|x                |o               |RPN LSB,MSB      |
-|                120|x                |o               |All Sound Off    |
-|                121|x                |o               |Reset All Cntrls |
-|-------------------+-----------------+----------------+-----------------|
-|Prog               |x                |o 0-127         |                 |
-|Change : True #    |*****************|                |                 |
-|-------------------+-----------------+----------------+-----------------|
-|System Exclusive   |o                |o               |                 |
-|-------------------+-----------------+----------------+-----------------|
-|System : Song Pos. |x                |x               |                 |
-|         Song Sel. |x                |x               |                 |
-|Common : Tune      |x                |x               |                 |
-|-------------------+-----------------+----------------+-----------------|
-|System    :Clock   |x                |x               |                 |
-|Real Time :Commands|x                |x               |                 |
-|-------------------+-----------------+----------------+-----------------|
-|Aux  :Local ON/OFF |x                |x               |                 |
-|     :All Notes OFF|x                |o               |                 |
-|Mes- :Active Sense |x                |x               |                 |
-|sages:Reset        |x                |x               |                 |
-|------------------------------------------------------------------------|
-|Notes:                                                                  |
-|                                                                        |
-|                                                                        |
-|                                                                        |
-+------------------------------------------------------------------------+
-</code></pre>
-<h2 id="rpn">受信するRPN</h2>
-<p><code>0000:ピッチベンドセンシティビティ</code>のみ受信する。</p>
-<h2 id="_2">プログラムバンク</h2>
-<p>バンクはMSBのみ受信する</p>
-<table>
-<thead>
-<tr>
-<th>バンク番号<br>MSB(10進数)</th>
-<th>バンク名</th>
-<th>備考</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>0</code></td>
-<td><code>Bank 0.7</code></td>
-<td>htsfms0.7相当</td>
-</tr>
-<tr>
-<td><code>96</code></td>
-<td><code>Bank 0.9</code></td>
-<td>htsfms0.9相当<br>一部正常に鳴らない音色あり</td>
-</tr>
-<tr>
-<td><code>97</code></td>
-<td><code>Bank 0.5</code></td>
-<td>htsfms0.5相当</td>
-</tr>
-<tr>
-<td><code>98</code></td>
-<td><code>User Bank</code></td>
-<td>ユーザー音色<br>未設定の場合音が出ません</td>
-</tr>
-</tbody>
-</table>
-<div class="admonition warning inline end">
-<p class="admonition-title">注意</p>
-<p>本音源のFM音源はLFOやノイズ発振などの機能がないため0.9相当の音色の一部は正常に鳴らすことができません。</p>
-</div></div>
+</div>
         
         
     </div>

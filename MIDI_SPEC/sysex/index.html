@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
     
-    <title>システムエクスクルーシブ - 「すーぱーおくてっと！」取扱説明書</title>
+    <title>システムエクスクルーシブ - すーぱーおくてっと！取扱説明書</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -59,7 +59,7 @@
             <!-- Main title -->
 
             
-              <a class="navbar-brand" href="../..">「すーぱーおくてっと！」取扱説明書</a>
+              <a class="navbar-brand" href="../..">すーぱーおくてっと！取扱説明書</a>
             
         </div>
 
@@ -76,24 +76,30 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">ファームウェア更新 <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">使い方ガイド <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../FW_UPDATE/fw/">ファームウェア更新</a>
+    <a href="../../GUIDE/tutorial_init/">電源投入まで</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../FW_UPDATE/tg/">波形生成プロセッサ</a>
+    <a href="../../GUIDE/tutorial_hard/">本体の操作</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../FW_UPDATE/pp/">周辺制御プロセッサ</a>
+    <a href="../../GUIDE/tutorial_play/">PCで使う</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../fwupdate/">ファームウェア更新</a>
 </li>
 
                         
@@ -124,34 +130,25 @@
                 
                 
                     <li >
-                        <a href="../../CAUTIONS/cautions/">免責・注意事項</a>
+                        <a href="../../download/">ダウンロード</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../../license/">ライセンス表示</a>
+                        <a href="../../cautions/">免責</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../license/">ライセンス</a>
                     </li>
                 
                 
                 </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                            <i class="fas fa-search"></i> Search
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="prev" href="../impl/">
-                            <i class="fas fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="next" href="../../CAUTIONS/cautions/">
-                            Next <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </li>
             </ul>
         </div>
     </div>
@@ -277,7 +274,7 @@
 </tr>
 </tbody>
 </table>
-<div class="admonition tip inline end">
+<div class="admonition note inline end">
 <p class="admonition-title">情報</p>
 <p>GSのシステムエクスクルーシブを受信時に<strong>チェックサムのチェックは行っていません</strong>。</p>
 </div>
@@ -304,7 +301,7 @@
 </tr>
 </tbody>
 </table>
-<div class="admonition tip inline end">
+<div class="admonition note inline end">
 <p class="admonition-title">情報</p>
 <p>XGの仕様書には<code>DISPLAY BITMAP</code>は<code>07 vh 00</code>となっており、縦方向(v:0~7)・横方向(h:0~F)への拡張が可能ですが本音源では実装していません。</p>
 </div>
@@ -776,7 +773,7 @@
 </tr>
 </tbody>
 </table>
-<div class="admonition tip inline end">
+<div class="admonition note inline end">
 <p class="admonition-title">情報</p>
 <p>本音源の現在のサンプリング周波数は32kHzですので59,60は違いがないものと思われます。</p>
 </div>
@@ -841,19 +838,6 @@
         
     </div>
 
-    
-      <footer class="col-md-12 text-center">
-          
-          
-            <hr>
-            <p>
-            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
-            </p>
-          
-
-          
-          
-      </footer>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../js/bootstrap-3.0.3.min.js"></script>

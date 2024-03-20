@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="img/favicon.ico">
 
     
-    <title>はじめに - 「すーぱーおくてっと！」取扱説明書</title>
+    <title>はじめに - すーぱーおくてっと！取扱説明書</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -59,7 +59,7 @@
             <!-- Main title -->
 
             
-              <a class="navbar-brand" href=".">「すーぱーおくてっと！」取扱説明書</a>
+              <a class="navbar-brand" href=".">すーぱーおくてっと！取扱説明書</a>
             
         </div>
 
@@ -76,24 +76,30 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">ファームウェア更新 <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">使い方ガイド <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="FW_UPDATE/fw/">ファームウェア更新</a>
+    <a href="GUIDE/tutorial_init/">電源投入まで</a>
 </li>
 
                         
                             
 <li >
-    <a href="FW_UPDATE/tg/">波形生成プロセッサ</a>
+    <a href="GUIDE/tutorial_hard/">本体の操作</a>
 </li>
 
                         
                             
 <li >
-    <a href="FW_UPDATE/pp/">周辺制御プロセッサ</a>
+    <a href="GUIDE/tutorial_play/">PCで使う</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="fwupdate/">ファームウェア更新</a>
 </li>
 
                         
@@ -124,34 +130,25 @@
                 
                 
                     <li >
-                        <a href="CAUTIONS/cautions/">免責・注意事項</a>
+                        <a href="download/">ダウンロード</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="license/">ライセンス表示</a>
+                        <a href="cautions/">免責</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="license/">ライセンス</a>
                     </li>
                 
                 
                 </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                            <i class="fas fa-search"></i> Search
-                        </a>
-                    </li>
-                    <li class="disabled">
-                        <a rel="prev" >
-                            <i class="fas fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="next" href="FW_UPDATE/fw/">
-                            Next <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </li>
             </ul>
         </div>
     </div>
@@ -169,13 +166,16 @@
                 
             <li class="second-level"><a href="#_4">動作確認環境</a></li>
                 
-            <li class="second-level"><a href="#_5">仕様</a></li>
+            <li class="second-level"><a href="#_5">注意事項</a></li>
+                
+            <li class="second-level"><a href="#_6">仕様</a></li>
                 
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
 <h1 id="_1">はじめに</h1>
+<p><img alt="ロゴ" src="logo.png" /></p>
 <p><img alt="すーぱーおくてっと！" src="top.jpg" /></p>
 <p><button type="button" class="btn btn-danger" style="display:block;margin:auto" onclick="window.location.href='https://feng-elec.booth.pm/items/5573638'"><span style="font-size:40px;">Boothで購入する</span></button></p>
 <p>本文書では「すーぱーおくてっと！」(以下本音源の)使用方法について記述します。</p>
@@ -231,7 +231,34 @@
 </ul>
 </li>
 </ul>
-<h2 id="_5">仕様</h2>
+<h2 id="_5">注意事項</h2>
+<ul>
+<li>
+<p>本機器は開発段階であり、今後ハードウェア・ソフトウェア双方が大幅な変更されることがあります</p>
+<ul>
+<li>ハードウェアの差異を吸収できるよう努めますが、場合によっては旧版のハードウェアのサポートを打ち切ることがあります</li>
+</ul>
+</li>
+<li>
+<p>ソフトウェアについては現状ほとんどの機能が未実装です。</p>
+<ul>
+<li>GM Level1準拠のデータの再生は概ね可能です</li>
+</ul>
+</li>
+<li>
+<p>液晶が大変脆いため強い力を天板に加えないでください</p>
+<ul>
+<li>ライン欠け等の原因になります</li>
+</ul>
+</li>
+<li>
+<p>かなり発熱します</p>
+<ul>
+<li>熱破壊の恐れがあるため使用環境にはご注意ください</li>
+</ul>
+</li>
+</ul>
+<h2 id="_6">仕様</h2>
 <div class="admonition warning inline end">
 <p class="admonition-title">情報</p>
 <p>今後仕様変更の可能性があります、ご注意ください。</p>
@@ -298,19 +325,6 @@
         
     </div>
 
-    
-      <footer class="col-md-12 text-center">
-          
-          
-            <hr>
-            <p>
-            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
-            </p>
-          
-
-          
-          
-      </footer>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap-3.0.3.min.js"></script>
@@ -398,5 +412,5 @@
 
 <!--
 MkDocs version : 1.5.3
-Build Date UTC : 2024-03-20 08:34:13.085829+00:00
+Build Date UTC : 2024-03-20 09:18:30.117118+00:00
 -->

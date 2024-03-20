@@ -1,0 +1,1578 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<ModuleData Name="すーぱーおくてっと！" Folder="" Priority="1" FileCreator="Luna Tsukinashi(feng)" FileVersion="1.05" WebSite="https://feng-elec.com">
+  <RhythmTrackDefault Gate="1" />
+  <ExclusiveEventDefault Data="F0H 43H 10H 4CH F7H" />
+  <InstrumentList>
+		<Map Name="001-008 ﾋﾟｱﾉ">
+			<PC Name="GrandPno" PC="1">
+				<Bank Name="GrandPno(0.7)" LSB="0" MSB="0" />
+				<Bank Name="GrandPno(0.9)" LSB="0" MSB="96" />
+				<Bank Name="GrandPno(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="BritePno" PC="2">
+				<Bank Name="BritePno(0.7)" LSB="0" MSB="0" />
+				<Bank Name="BritePno(0.9)" LSB="0" MSB="96" />
+				<Bank Name="BritePno(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="E.Grand " PC="3">
+				<Bank Name="E.Grand (0.7)" LSB="0" MSB="0" />
+				<Bank Name="E.Grand (0.9)" LSB="0" MSB="96" />
+				<Bank Name="E.Grand (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="HnkyTonk" PC="4">
+				<Bank Name="HnkyTonk(0.7)" LSB="0" MSB="0" />
+				<Bank Name="HnkyTonk(0.9)" LSB="0" MSB="96" />
+				<Bank Name="HnkyTonk(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="E.Piano1" PC="5">
+				<Bank Name="E.Piano1(0.7)" LSB="0" MSB="0" />
+				<Bank Name="E.Piano1(0.9)" LSB="0" MSB="96" />
+				<Bank Name="E.Piano1(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="E.Piano2" PC="6">
+				<Bank Name="E.Piano2(0.7)" LSB="0" MSB="0" />
+				<Bank Name="E.Piano2(0.9)" LSB="0" MSB="96" />
+				<Bank Name="E.Piano2(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Harpsi. " PC="7">
+				<Bank Name="Harpsi. (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Harpsi. (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Harpsi. (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Clavi.  " PC="8">
+				<Bank Name="Clavi.  (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Clavi.  (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Clavi.  (0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="009-016 ｸﾛﾏﾁｯｸ･ﾊﾟｰｶｯｼｮﾝ">
+			<PC Name="Celesta " PC="9">
+				<Bank Name="Celesta (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Celesta (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Celesta (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Glocken " PC="10">
+				<Bank Name="Glocken (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Glocken (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Glocken (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="MusicBox" PC="11">
+				<Bank Name="MusicBox(0.7)" LSB="0" MSB="0" />
+				<Bank Name="MusicBox(0.9)" LSB="0" MSB="96" />
+				<Bank Name="MusicBox(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Vibes   " PC="12">
+				<Bank Name="Vibes   (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Vibes   (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Vibes   (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Marimba " PC="13">
+				<Bank Name="Marimba (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Marimba (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Marimba (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Xylophon" PC="14">
+				<Bank Name="Xylophon(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Xylophon(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Xylophon(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="TubulBel" PC="15">
+				<Bank Name="TubulBel(0.7)" LSB="0" MSB="0" />
+				<Bank Name="TubulBel(0.9)" LSB="0" MSB="96" />
+				<Bank Name="TubulBel(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Dulcimer" PC="16">
+				<Bank Name="Dulcimer(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Dulcimer(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Dulcimer(0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="017-024 ｵﾙｶﾞﾝ">
+			<PC Name="DrawOrgn" PC="17">
+				<Bank Name="DrawOrgn(0.7)" LSB="0" MSB="0" />
+				<Bank Name="DrawOrgn(0.9)" LSB="0" MSB="96" />
+				<Bank Name="DrawOrgn(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="PercOrgn" PC="18">
+				<Bank Name="PercOrgn(0.7)" LSB="0" MSB="0" />
+				<Bank Name="PercOrgn(0.9)" LSB="0" MSB="96" />
+				<Bank Name="PercOrgn(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="RockOrgn" PC="19">
+				<Bank Name="RockOrgn(0.7)" LSB="0" MSB="0" />
+				<Bank Name="RockOrgn(0.9)" LSB="0" MSB="96" />
+				<Bank Name="RockOrgn(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="ChrchOrg" PC="20">
+				<Bank Name="ChrchOrg(0.7)" LSB="0" MSB="0" />
+				<Bank Name="ChrchOrg(0.9)" LSB="0" MSB="96" />
+				<Bank Name="ChrchOrg(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="ReedOrgn" PC="21">
+				<Bank Name="ReedOrgn(0.7)" LSB="0" MSB="0" />
+				<Bank Name="ReedOrgn(0.9)" LSB="0" MSB="96" />
+				<Bank Name="ReedOrgn(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Acordion" PC="22">
+				<Bank Name="Acordion(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Acordion(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Acordion(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Harmnica" PC="23">
+				<Bank Name="Harmnica(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Harmnica(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Harmnica(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="TangoAcd" PC="24">
+				<Bank Name="TangoAcd(0.7)" LSB="0" MSB="0" />
+				<Bank Name="TangoAcd(0.9)" LSB="0" MSB="96" />
+				<Bank Name="TangoAcd(0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="025-032 ｷﾞﾀｰ">
+			<PC Name="NylonGtr" PC="25">
+				<Bank Name="NylonGtr(0.7)" LSB="0" MSB="0" />
+				<Bank Name="NylonGtr(0.9)" LSB="0" MSB="96" />
+				<Bank Name="NylonGtr(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="SteelGtr" PC="26">
+				<Bank Name="SteelGtr(0.7)" LSB="0" MSB="0" />
+				<Bank Name="SteelGtr(0.9)" LSB="0" MSB="96" />
+				<Bank Name="SteelGtr(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Jazz Gtr" PC="27">
+				<Bank Name="Jazz Gtr(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Jazz Gtr(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Jazz Gtr(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="CleanGtr" PC="28">
+				<Bank Name="CleanGtr(0.7)" LSB="0" MSB="0" />
+				<Bank Name="CleanGtr(0.9)" LSB="0" MSB="96" />
+				<Bank Name="CleanGtr(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Mute Gtr" PC="29">
+				<Bank Name="Mute Gtr(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Mute Gtr(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Mute Gtr(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Ovrdrive" PC="30">
+				<Bank Name="Ovrdrive(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Ovrdrive(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Ovrdrive(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Dist.Gtr" PC="31">
+				<Bank Name="Dist.Gtr(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Dist.Gtr(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Dist.Gtr(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="GtrHarmo" PC="32">
+				<Bank Name="GtrHarmo(0.7)" LSB="0" MSB="0" />
+				<Bank Name="GtrHarmo(0.9)" LSB="0" MSB="96" />
+				<Bank Name="GtrHarmo(0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="033-040 ﾍﾞｰｽ">
+			<PC Name="Aco.Bass" PC="33">
+				<Bank Name="Aco.Bass(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Aco.Bass(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Aco.Bass(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="FngrBass" PC="34">
+				<Bank Name="FngrBass(0.7)" LSB="0" MSB="0" />
+				<Bank Name="FngrBass(0.9)" LSB="0" MSB="96" />
+				<Bank Name="FngrBass(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="PickBass" PC="35">
+				<Bank Name="PickBass(0.7)" LSB="0" MSB="0" />
+				<Bank Name="PickBass(0.9)" LSB="0" MSB="96" />
+				<Bank Name="PickBass(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Fretless" PC="36">
+				<Bank Name="Fretless(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Fretless(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Fretless(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="SlapBas1" PC="37">
+				<Bank Name="SlapBas1(0.7)" LSB="0" MSB="0" />
+				<Bank Name="SlapBas1(0.9)" LSB="0" MSB="96" />
+				<Bank Name="SlapBas1(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="SlapBas2" PC="38">
+				<Bank Name="SlapBas2(0.7)" LSB="0" MSB="0" />
+				<Bank Name="SlapBas2(0.9)" LSB="0" MSB="96" />
+				<Bank Name="SlapBas2(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="SynBass1" PC="39">
+				<Bank Name="SynBass1(0.7)" LSB="0" MSB="0" />
+				<Bank Name="SynBass1(0.9)" LSB="0" MSB="96" />
+				<Bank Name="SynBass1(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="SynBass2" PC="40">
+				<Bank Name="SynBass2(0.7)" LSB="0" MSB="0" />
+				<Bank Name="SynBass2(0.9)" LSB="0" MSB="96" />
+				<Bank Name="SynBass2(0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="041-048 ｽﾄﾘﾝｸﾞｽ/ｵｰｹｽﾄﾗ">
+			<PC Name="Violin  " PC="41">
+				<Bank Name="Violin  (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Violin  (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Violin  (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Viola   " PC="42">
+				<Bank Name="Viola   (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Viola   (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Viola   (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Cello   " PC="43">
+				<Bank Name="Cello   (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Cello   (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Cello   (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Contrabs" PC="44">
+				<Bank Name="Contrabs(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Contrabs(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Contrabs(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Trem.Str" PC="45">
+				<Bank Name="Trem.Str(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Trem.Str(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Trem.Str(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Pizz.Str" PC="46">
+				<Bank Name="Pizz.Str(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Pizz.Str(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Pizz.Str(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Harp    " PC="47">
+				<Bank Name="Harp    (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Harp    (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Harp    (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Timpani " PC="48">
+				<Bank Name="Timpani (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Timpani (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Timpani (0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="049-056 ｱﾝｻﾝﾌﾞﾙ">
+			<PC Name="Strings1" PC="49">
+				<Bank Name="Strings1(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Strings1(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Strings1(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Strings2" PC="50">
+				<Bank Name="Strings2(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Strings2(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Strings2(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Syn.Str1" PC="51">
+				<Bank Name="Syn.Str1(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Syn.Str1(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Syn.Str1(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Syn.Str2" PC="52">
+				<Bank Name="Syn.Str2(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Syn.Str2(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Syn.Str2(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="ChoirAah" PC="53">
+				<Bank Name="ChoirAah(0.7)" LSB="0" MSB="0" />
+				<Bank Name="ChoirAah(0.9)" LSB="0" MSB="96" />
+				<Bank Name="ChoirAah(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="VoiceOoh" PC="54">
+				<Bank Name="VoiceOoh(0.7)" LSB="0" MSB="0" />
+				<Bank Name="VoiceOoh(0.9)" LSB="0" MSB="96" />
+				<Bank Name="VoiceOoh(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="SynVoice" PC="55">
+				<Bank Name="SynVoice(0.7)" LSB="0" MSB="0" />
+				<Bank Name="SynVoice(0.9)" LSB="0" MSB="96" />
+				<Bank Name="SynVoice(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Orch.Hit" PC="56">
+				<Bank Name="Orch.Hit(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Orch.Hit(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Orch.Hit(0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="057-064 ﾌﾞﾗｽ">
+			<PC Name="Trumpet " PC="57">
+				<Bank Name="Trumpet (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Trumpet (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Trumpet (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Trombone" PC="58">
+				<Bank Name="Trombone(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Trombone(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Trombone(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Tuba    " PC="59">
+				<Bank Name="Tuba    (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Tuba    (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Tuba    (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Mute.Trp" PC="60">
+				<Bank Name="Mute.Trp(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Mute.Trp(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Mute.Trp(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Fr.Horn " PC="61">
+				<Bank Name="Fr.Horn (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Fr.Horn (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Fr.Horn (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="BrasSect" PC="62">
+				<Bank Name="BrasSect(0.7)" LSB="0" MSB="0" />
+				<Bank Name="BrasSect(0.9)" LSB="0" MSB="96" />
+				<Bank Name="BrasSect(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="SynBras1" PC="63">
+				<Bank Name="SynBras1(0.7)" LSB="0" MSB="0" />
+				<Bank Name="SynBras1(0.9)" LSB="0" MSB="96" />
+				<Bank Name="SynBras1(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="SynBras2" PC="64">
+				<Bank Name="SynBras2(0.7)" LSB="0" MSB="0" />
+				<Bank Name="SynBras2(0.9)" LSB="0" MSB="96" />
+				<Bank Name="SynBras2(0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="065-072 ﾘｰﾄﾞ">
+			<PC Name="SprnoSax" PC="65">
+				<Bank Name="SprnoSax(0.7)" LSB="0" MSB="0" />
+				<Bank Name="SprnoSax(0.9)" LSB="0" MSB="96" />
+				<Bank Name="SprnoSax(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Alto Sax" PC="66">
+				<Bank Name="Alto Sax(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Alto Sax(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Alto Sax(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="TenorSax" PC="67">
+				<Bank Name="TenorSax(0.7)" LSB="0" MSB="0" />
+				<Bank Name="TenorSax(0.9)" LSB="0" MSB="96" />
+				<Bank Name="TenorSax(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Bari.Sax" PC="68">
+				<Bank Name="Bari.Sax(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Bari.Sax(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Bari.Sax(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Oboe    " PC="69">
+				<Bank Name="Oboe    (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Oboe    (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Oboe    (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Eng.Horn" PC="70">
+				<Bank Name="Eng.Horn(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Eng.Horn(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Eng.Horn(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Bassoon " PC="71">
+				<Bank Name="Bassoon (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Bassoon (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Bassoon (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Clarinet" PC="72">
+				<Bank Name="Clarinet(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Clarinet(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Clarinet(0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="073-080 ﾊﾟｲﾌﾟ">
+			<PC Name="Piccolo " PC="73">
+				<Bank Name="Piccolo (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Piccolo (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Piccolo (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Flute   " PC="74">
+				<Bank Name="Flute   (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Flute   (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Flute   (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Recorder" PC="75">
+				<Bank Name="Recorder(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Recorder(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Recorder(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="PanFlute" PC="76">
+				<Bank Name="PanFlute(0.7)" LSB="0" MSB="0" />
+				<Bank Name="PanFlute(0.9)" LSB="0" MSB="96" />
+				<Bank Name="PanFlute(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Bottle  " PC="77">
+				<Bank Name="Bottle  (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Bottle  (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Bottle  (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Shakhchi" PC="78">
+				<Bank Name="Shakhchi(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Shakhchi(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Shakhchi(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Whistle " PC="79">
+				<Bank Name="Whistle (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Whistle (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Whistle (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Ocarina " PC="80">
+				<Bank Name="Ocarina (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Ocarina (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Ocarina (0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="081-088 ｼﾝｾ･ﾘｰﾄﾞ">
+			<PC Name="SquareLd" PC="81">
+				<Bank Name="SquareLd(0.7)" LSB="0" MSB="0" />
+				<Bank Name="SquareLd(0.9)" LSB="0" MSB="96" />
+				<Bank Name="SquareLd(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Saw.Lead" PC="82">
+				<Bank Name="Saw.Lead(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Saw.Lead(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Saw.Lead(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="CaliopLd" PC="83">
+				<Bank Name="CaliopLd(0.7)" LSB="0" MSB="0" />
+				<Bank Name="CaliopLd(0.9)" LSB="0" MSB="96" />
+				<Bank Name="CaliopLd(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Chiff Ld" PC="84">
+				<Bank Name="Chiff Ld(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Chiff Ld(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Chiff Ld(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="CharanLd" PC="85">
+				<Bank Name="CharanLd(0.7)" LSB="0" MSB="0" />
+				<Bank Name="CharanLd(0.9)" LSB="0" MSB="96" />
+				<Bank Name="CharanLd(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Voice Ld" PC="86">
+				<Bank Name="Voice Ld(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Voice Ld(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Voice Ld(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Fifth Ld" PC="87">
+				<Bank Name="Fifth Ld(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Fifth Ld(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Fifth Ld(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Bass &amp;Ld" PC="88">
+				<Bank Name="Bass &amp;Ld(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Bass &amp;Ld(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Bass &amp;Ld(0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="089-096 ｼﾝｾ･ﾊﾟｯﾄﾞなど">
+			<PC Name="NewAgePd" PC="89">
+				<Bank Name="NewAgePd(0.7)" LSB="0" MSB="0" />
+				<Bank Name="NewAgePd(0.9)" LSB="0" MSB="96" />
+				<Bank Name="NewAgePd(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Warm Pad" PC="90">
+				<Bank Name="Warm Pad(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Warm Pad(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Warm Pad(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="PolySyPd" PC="91">
+				<Bank Name="PolySyPd(0.7)" LSB="0" MSB="0" />
+				<Bank Name="PolySyPd(0.9)" LSB="0" MSB="96" />
+				<Bank Name="PolySyPd(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="ChoirPad" PC="92">
+				<Bank Name="ChoirPad(0.7)" LSB="0" MSB="0" />
+				<Bank Name="ChoirPad(0.9)" LSB="0" MSB="96" />
+				<Bank Name="ChoirPad(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="BowedPad" PC="93">
+				<Bank Name="BowedPad(0.7)" LSB="0" MSB="0" />
+				<Bank Name="BowedPad(0.9)" LSB="0" MSB="96" />
+				<Bank Name="BowedPad(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="MetalPad" PC="94">
+				<Bank Name="MetalPad(0.7)" LSB="0" MSB="0" />
+				<Bank Name="MetalPad(0.9)" LSB="0" MSB="96" />
+				<Bank Name="MetalPad(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Halo Pad" PC="95">
+				<Bank Name="Halo Pad(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Halo Pad(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Halo Pad(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="SweepPad" PC="96">
+				<Bank Name="SweepPad(0.7)" LSB="0" MSB="0" />
+				<Bank Name="SweepPad(0.9)" LSB="0" MSB="96" />
+				<Bank Name="SweepPad(0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="097-104 ｼﾝｾ SFX">
+			<PC Name="Rain   " PC="97">
+				<Bank Name="Rain   (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Rain   (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Rain   (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="SoundTrk" PC="98">
+				<Bank Name="SoundTrk(0.7)" LSB="0" MSB="0" />
+				<Bank Name="SoundTrk(0.9)" LSB="0" MSB="96" />
+				<Bank Name="SoundTrk(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Crystal " PC="99">
+				<Bank Name="Crystal (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Crystal (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Crystal (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Atmosphr" PC="100">
+				<Bank Name="Atmosphr(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Atmosphr(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Atmosphr(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Bright  " PC="101">
+				<Bank Name="Bright  (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Bright  (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Bright  (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Goblins " PC="102">
+				<Bank Name="Goblins (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Goblins (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Goblins (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Echoes  " PC="103">
+				<Bank Name="Echoes  (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Echoes  (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Echoes  (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Sci-Fi  " PC="104">
+				<Bank Name="Sci-Fi  (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Sci-Fi  (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Sci-Fi  (0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="105-112 ｴｽﾆｯｸなど">
+			<PC Name="Sitar   " PC="105">
+				<Bank Name="Sitar   (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Sitar   (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Sitar   (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Banjo   " PC="106">
+				<Bank Name="Banjo   (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Banjo   (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Banjo   (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Shamisen" PC="107">
+				<Bank Name="Shamisen(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Shamisen(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Shamisen(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Koto    " PC="108">
+				<Bank Name="Koto    (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Koto    (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Koto    (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Kalimba " PC="109">
+				<Bank Name="Kalimba (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Kalimba (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Kalimba (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Bagpipe " PC="110">
+				<Bank Name="Bagpipe (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Bagpipe (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Bagpipe (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Fiddle  " PC="111">
+				<Bank Name="Fiddle  (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Fiddle  (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Fiddle  (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Shanai  " PC="112">
+				<Bank Name="Shanai  (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Shanai  (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Shanai  (0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="113-120 ﾊﾟｰｶｯｼﾌﾞ">
+			<PC Name="TnklBell" PC="113">
+				<Bank Name="TnklBell(0.7)" LSB="0" MSB="0" />
+				<Bank Name="TnklBell(0.9)" LSB="0" MSB="96" />
+				<Bank Name="TnklBell(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Agogo" PC="114">
+				<Bank Name="Agogo(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Agogo(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Agogo(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="SteelDrm" PC="115">
+				<Bank Name="SteelDrm(0.7)" LSB="0" MSB="0" />
+				<Bank Name="SteelDrm(0.9)" LSB="0" MSB="96" />
+				<Bank Name="SteelDrm(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="WoodBlok" PC="116">
+				<Bank Name="WoodBlok(0.7)" LSB="0" MSB="0" />
+				<Bank Name="WoodBlok(0.9)" LSB="0" MSB="96" />
+				<Bank Name="WoodBlok(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="TaikoDrm" PC="117">
+				<Bank Name="TaikoDrm(0.7)" LSB="0" MSB="0" />
+				<Bank Name="TaikoDrm(0.9)" LSB="0" MSB="96" />
+				<Bank Name="TaikoDrm(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="MelodTom" PC="118">
+				<Bank Name="MelodTom(0.7)" LSB="0" MSB="0" />
+				<Bank Name="MelodTom(0.9)" LSB="0" MSB="96" />
+				<Bank Name="MelodTom(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Syn.Drum" PC="119">
+				<Bank Name="Syn.Drum(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Syn.Drum(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Syn.Drum(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="RevCymbl" PC="120">
+				<Bank Name="RevCymbl(0.7)" LSB="0" MSB="0" />
+				<Bank Name="RevCymbl(0.9)" LSB="0" MSB="96" />
+				<Bank Name="RevCymbl(0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="121-128 SFX">
+			<PC Name="FretNoiz" PC="121">
+				<Bank Name="FretNoiz(0.7)" LSB="0" MSB="0" />
+				<Bank Name="FretNoiz(0.9)" LSB="0" MSB="96" />
+				<Bank Name="FretNoiz(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="BrthNoiz" PC="122">
+				<Bank Name="BrthNoiz(0.7)" LSB="0" MSB="0" />
+				<Bank Name="BrthNoiz(0.9)" LSB="0" MSB="96" />
+				<Bank Name="BrthNoiz(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Seashore" PC="123">
+				<Bank Name="Seashore(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Seashore(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Seashore(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Tweet   " PC="124">
+				<Bank Name="Tweet   (0.7)" LSB="0" MSB="0" />
+				<Bank Name="Tweet   (0.9)" LSB="0" MSB="96" />
+				<Bank Name="Tweet   (0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Telphone" PC="125">
+				<Bank Name="Telphone(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Telphone(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Telphone(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Helicptr" PC="126">
+				<Bank Name="Helicptr(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Helicptr(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Helicptr(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Applause" PC="127">
+				<Bank Name="Applause(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Applause(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Applause(0.5)" LSB="0" MSB="97" />
+			</PC>
+			<PC Name="Gunshot" PC="128">
+				<Bank Name="Gunshot(0.7)" LSB="0" MSB="0" />
+				<Bank Name="Gunshot(0.9)" LSB="0" MSB="96" />
+				<Bank Name="Gunshot(0.5)" LSB="0" MSB="97" />
+			</PC>
+		</Map>
+		<Map Name="ﾕｰｻﾞｰ音色">
+			<PC Name="User 001" PC="1">
+				<Bank Name="User 001" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 002" PC="2">
+				<Bank Name="User 002" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 003" PC="3">
+				<Bank Name="User 003" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 004" PC="4">
+				<Bank Name="User 004" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 005" PC="5">
+				<Bank Name="User 005" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 006" PC="6">
+				<Bank Name="User 006" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 007" PC="7">
+				<Bank Name="User 007" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 008" PC="8">
+				<Bank Name="User 008" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 009" PC="9">
+				<Bank Name="User 009" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 010" PC="10">
+				<Bank Name="User 010" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 011" PC="11">
+				<Bank Name="User 011" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 012" PC="12">
+				<Bank Name="User 012" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 013" PC="13">
+				<Bank Name="User 013" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 014" PC="14">
+				<Bank Name="User 014" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 015" PC="15">
+				<Bank Name="User 015" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 016" PC="16">
+				<Bank Name="User 016" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 017" PC="17">
+				<Bank Name="User 017" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 018" PC="18">
+				<Bank Name="User 018" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 019" PC="19">
+				<Bank Name="User 019" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 020" PC="20">
+				<Bank Name="User 020" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 021" PC="21">
+				<Bank Name="User 021" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 022" PC="22">
+				<Bank Name="User 022" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 023" PC="23">
+				<Bank Name="User 023" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 024" PC="24">
+				<Bank Name="User 024" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 025" PC="25">
+				<Bank Name="User 025" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 026" PC="26">
+				<Bank Name="User 026" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 027" PC="27">
+				<Bank Name="User 027" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 028" PC="28">
+				<Bank Name="User 028" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 029" PC="29">
+				<Bank Name="User 029" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 030" PC="30">
+				<Bank Name="User 030" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 031" PC="31">
+				<Bank Name="User 031" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 032" PC="32">
+				<Bank Name="User 032" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 033" PC="33">
+				<Bank Name="User 033" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 034" PC="34">
+				<Bank Name="User 034" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 035" PC="35">
+				<Bank Name="User 035" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 036" PC="36">
+				<Bank Name="User 036" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 037" PC="37">
+				<Bank Name="User 037" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 038" PC="38">
+				<Bank Name="User 038" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 039" PC="39">
+				<Bank Name="User 039" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 040" PC="40">
+				<Bank Name="User 040" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 041" PC="41">
+				<Bank Name="User 041" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 042" PC="42">
+				<Bank Name="User 042" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 043" PC="43">
+				<Bank Name="User 043" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 044" PC="44">
+				<Bank Name="User 044" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 045" PC="45">
+				<Bank Name="User 045" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 046" PC="46">
+				<Bank Name="User 046" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 047" PC="47">
+				<Bank Name="User 047" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 048" PC="48">
+				<Bank Name="User 048" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 049" PC="49">
+				<Bank Name="User 049" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 050" PC="50">
+				<Bank Name="User 050" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 051" PC="51">
+				<Bank Name="User 051" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 052" PC="52">
+				<Bank Name="User 052" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 053" PC="53">
+				<Bank Name="User 053" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 054" PC="54">
+				<Bank Name="User 054" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 055" PC="55">
+				<Bank Name="User 055" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 056" PC="56">
+				<Bank Name="User 056" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 057" PC="57">
+				<Bank Name="User 057" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 058" PC="58">
+				<Bank Name="User 058" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 059" PC="59">
+				<Bank Name="User 059" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 060" PC="60">
+				<Bank Name="User 060" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 061" PC="61">
+				<Bank Name="User 061" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 062" PC="62">
+				<Bank Name="User 062" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 063" PC="63">
+				<Bank Name="User 063" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 064" PC="64">
+				<Bank Name="User 064" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 065" PC="65">
+				<Bank Name="User 065" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 066" PC="66">
+				<Bank Name="User 066" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 067" PC="67">
+				<Bank Name="User 067" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 068" PC="68">
+				<Bank Name="User 068" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 069" PC="69">
+				<Bank Name="User 069" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 070" PC="70">
+				<Bank Name="User 070" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 071" PC="71">
+				<Bank Name="User 071" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 072" PC="72">
+				<Bank Name="User 072" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 073" PC="73">
+				<Bank Name="User 073" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 074" PC="74">
+				<Bank Name="User 074" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 075" PC="75">
+				<Bank Name="User 075" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 076" PC="76">
+				<Bank Name="User 076" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 077" PC="77">
+				<Bank Name="User 077" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 078" PC="78">
+				<Bank Name="User 078" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 079" PC="79">
+				<Bank Name="User 079" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 080" PC="80">
+				<Bank Name="User 080" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 081" PC="81">
+				<Bank Name="User 081" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 082" PC="82">
+				<Bank Name="User 082" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 083" PC="83">
+				<Bank Name="User 083" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 084" PC="84">
+				<Bank Name="User 084" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 085" PC="85">
+				<Bank Name="User 085" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 086" PC="86">
+				<Bank Name="User 086" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 087" PC="87">
+				<Bank Name="User 087" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 088" PC="88">
+				<Bank Name="User 088" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 089" PC="89">
+				<Bank Name="User 089" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 090" PC="90">
+				<Bank Name="User 090" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 091" PC="91">
+				<Bank Name="User 091" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 092" PC="92">
+				<Bank Name="User 092" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 093" PC="93">
+				<Bank Name="User 093" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 094" PC="94">
+				<Bank Name="User 094" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 095" PC="95">
+				<Bank Name="User 095" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 096" PC="96">
+				<Bank Name="User 096" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 097" PC="97">
+				<Bank Name="User 097" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 098" PC="98">
+				<Bank Name="User 098" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 099" PC="99">
+				<Bank Name="User 099" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 100" PC="100">
+				<Bank Name="User 100" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 101" PC="101">
+				<Bank Name="User 101" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 102" PC="102">
+				<Bank Name="User 102" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 103" PC="103">
+				<Bank Name="User 103" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 104" PC="104">
+				<Bank Name="User 104" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 105" PC="105">
+				<Bank Name="User 105" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 106" PC="106">
+				<Bank Name="User 106" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 107" PC="107">
+				<Bank Name="User 107" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 108" PC="108">
+				<Bank Name="User 108" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 109" PC="109">
+				<Bank Name="User 109" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 110" PC="110">
+				<Bank Name="User 110" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 111" PC="111">
+				<Bank Name="User 111" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 112" PC="112">
+				<Bank Name="User 112" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 113" PC="113">
+				<Bank Name="User 113" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 114" PC="114">
+				<Bank Name="User 114" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 115" PC="115">
+				<Bank Name="User 115" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 116" PC="116">
+				<Bank Name="User 116" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 117" PC="117">
+				<Bank Name="User 117" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 118" PC="118">
+				<Bank Name="User 118" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 119" PC="119">
+				<Bank Name="User 119" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 120" PC="120">
+				<Bank Name="User 120" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 121" PC="121">
+				<Bank Name="User 121" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 122" PC="122">
+				<Bank Name="User 122" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 123" PC="123">
+				<Bank Name="User 123" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 124" PC="124">
+				<Bank Name="User 124" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 125" PC="125">
+				<Bank Name="User 125" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 126" PC="126">
+				<Bank Name="User 126" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 127" PC="127">
+				<Bank Name="User 127" LSB="0" MSB="98"/>
+			</PC>
+			<PC Name="User 128" PC="128">
+				<Bank Name="User 128" LSB="0" MSB="98"/>
+			</PC>
+		</Map>
+</InstrumentList>
+  <DrumSetList>
+    <Map Name="GM">
+      <PC Name="Rhythm" PC="1">
+        <Bank Name="Rhythm" LSB="0" MSB="0">
+          <Tone Name="Acou Bass Drum" Key="35" />
+          <Tone Name="Bass Drum 1" Key="36" />
+          <Tone Name="Side Stick" Key="37" />
+          <Tone Name="Acoustic Snare" Key="38" />
+          <Tone Name="Hand clap" Key="39" />
+          <Tone Name="Electoric Snare" Key="40" />
+          <Tone Name="Low Floor Tom" Key="41" />
+          <Tone Name="Closed Hi-Hat" Key="42" />
+          <Tone Name="High Floor Tom" Key="43" />
+          <Tone Name="Pedal Hi-Hat" Key="44" />
+          <Tone Name="Low Tom" Key="45" />
+          <Tone Name="Open Hi-Hat" Key="46" />
+          <Tone Name="Low Mid Tom" Key="47" />
+          <Tone Name="Hi Mid Tom" Key="48" />
+          <Tone Name="Crash Cymbal 1" Key="49" />
+          <Tone Name="High Tom" Key="50" />
+          <Tone Name="Ride Cymbal 1" Key="51" />
+          <Tone Name="Chinese Cymbal" Key="52" />
+          <Tone Name="Ride Bell" Key="53" />
+          <Tone Name="Tambourine" Key="54" />
+          <Tone Name="Splash Cymbal" Key="55" />
+          <Tone Name="Cowbell" Key="56" />
+          <Tone Name="Crash Cymbal 2" Key="57" />
+          <Tone Name="Vibraslap" Key="58" />
+          <Tone Name="Ride Cymbal 2" Key="59" />
+          <Tone Name="Hi Bongo" Key="60" />
+          <Tone Name="Low Bongo" Key="61" />
+          <Tone Name="Mute Hi Conga" Key="62" />
+          <Tone Name="Open Hi Conga" Key="63" />
+          <Tone Name="Low Conga" Key="64" />
+          <Tone Name="High Timbale" Key="65" />
+          <Tone Name="Low Timbale" Key="66" />
+          <Tone Name="High Agogo" Key="67" />
+          <Tone Name="Low Agogo" Key="68" />
+          <Tone Name="Cabassa" Key="69" />
+          <Tone Name="Maracas" Key="70" />
+          <Tone Name="Short Whistle" Key="71" />
+          <Tone Name="Long Whistle" Key="72" />
+          <Tone Name="Short Guiro" Key="73" />
+          <Tone Name="Long Guiro" Key="74" />
+          <Tone Name="Claves" Key="75" />
+          <Tone Name="High Wood Block" Key="76" />
+          <Tone Name="Low Wood Block" Key="77" />
+          <Tone Name="Mute Cuica" Key="78" />
+          <Tone Name="Open Cuica" Key="79" />
+          <Tone Name="Mute Triangle" Key="80" />
+          <Tone Name="Open Triangle" Key="81" />
+        </Bank>
+      </PC>
+    </Map>
+  </DrumSetList>
+	<Table ID="9">
+		<Entry Label=" 52  -12" Value="52" />
+		<Entry Label=" 53  -11" Value="53" />
+		<Entry Label=" 54  -10" Value="54" />
+		<Entry Label=" 55  -09" Value="55" />
+		<Entry Label=" 56  -08" Value="56" />
+		<Entry Label=" 57  -07" Value="57" />
+		<Entry Label=" 58  -06" Value="58" />
+		<Entry Label=" 59  -05" Value="59" />
+		<Entry Label=" 60  -04" Value="60" />
+		<Entry Label=" 61  -03" Value="61" />
+		<Entry Label=" 62  -02" Value="62" />
+		<Entry Label=" 63  -01" Value="63" />
+		<Entry Label=" 64  ±0" Value="64" />
+		<Entry Label=" 65  +01" Value="65" />
+		<Entry Label=" 66  +02" Value="66" />
+		<Entry Label=" 67  +03" Value="67" />
+		<Entry Label=" 68  +04" Value="68" />
+		<Entry Label=" 69  +05" Value="69" />
+		<Entry Label=" 70  +06" Value="70" />
+		<Entry Label=" 71  +07" Value="71" />
+		<Entry Label=" 72  +08" Value="72" />
+		<Entry Label=" 73  +09" Value="73" />
+		<Entry Label=" 74  +10" Value="74" />
+		<Entry Label=" 75  +11" Value="75" />
+		<Entry Label=" 76  +12" Value="76" />
+	</Table>
+	<Table ID="28">
+		<Entry Label="   32Hz" Value="4" />
+		<Entry Label="   36Hz" Value="5" />
+		<Entry Label="   40Hz" Value="6" />
+		<Entry Label="   45Hz" Value="7" />
+		<Entry Label="   50Hz" Value="8" />
+		<Entry Label="   56Hz" Value="9" />
+		<Entry Label="   63Hz" Value="10" />
+		<Entry Label="   70Hz" Value="11" />
+		<Entry Label="   80Hz" Value="12" />
+		<Entry Label="   90Hz" Value="13" />
+		<Entry Label="  100Hz" Value="14" />
+		<Entry Label="  110Hz" Value="15" />
+		<Entry Label="  125Hz" Value="16" />
+		<Entry Label="  140Hz" Value="17" />
+		<Entry Label="  160Hz" Value="18" />
+		<Entry Label="  180Hz" Value="19" />
+		<Entry Label="  200Hz" Value="20" />
+		<Entry Label="  225Hz" Value="21" />
+		<Entry Label="  250Hz" Value="22" />
+		<Entry Label="  280Hz" Value="23" />
+		<Entry Label="  315Hz" Value="24" />
+		<Entry Label="  355Hz" Value="25" />
+		<Entry Label="  400Hz" Value="26" />
+		<Entry Label="  450Hz" Value="27" />
+		<Entry Label="  500Hz" Value="28" />
+		<Entry Label="  560Hz" Value="29" />
+		<Entry Label="  630Hz" Value="30" />
+		<Entry Label="  700Hz" Value="31" />
+		<Entry Label="  800Hz" Value="32" />
+		<Entry Label="  900Hz" Value="33" />
+		<Entry Label=" 1.0kHz" Value="34" />
+		<Entry Label=" 1.1kHz" Value="35" />
+		<Entry Label=" 1.2kHz" Value="36" />
+		<Entry Label=" 1.4kHz" Value="37" />
+		<Entry Label=" 1.6kHz" Value="38" />
+		<Entry Label=" 1.8kHz" Value="39" />
+		<Entry Label=" 2.0kHz" Value="40" />
+	</Table>
+
+<Table ID="30">
+<Entry Label="  100Hz" Value="14" />
+<Entry Label="  110Hz" Value="15" />
+<Entry Label="  125Hz" Value="16" />
+<Entry Label="  140Hz" Value="17" />
+<Entry Label="  160Hz" Value="18" />
+<Entry Label="  180Hz" Value="19" />
+<Entry Label="  200Hz" Value="20" />
+<Entry Label="  225Hz" Value="21" />
+<Entry Label="  250Hz" Value="22" />
+<Entry Label="  280Hz" Value="23" />
+<Entry Label="  315Hz" Value="24" />
+<Entry Label="  355Hz" Value="25" />
+<Entry Label="  400Hz" Value="26" />
+<Entry Label="  450Hz" Value="27" />
+<Entry Label="  500Hz" Value="28" />
+<Entry Label="  560Hz" Value="29" />
+<Entry Label="  630Hz" Value="30" />
+<Entry Label="  700Hz" Value="31" />
+<Entry Label="  800Hz" Value="32" />
+<Entry Label="  900Hz" Value="33" />
+<Entry Label=" 1.0kHz" Value="34" />
+<Entry Label=" 1.1kHz" Value="35" />
+<Entry Label=" 1.2kHz" Value="36" />
+<Entry Label=" 1.4kHz" Value="37" />
+<Entry Label=" 1.6kHz" Value="38" />
+<Entry Label=" 1.8kHz" Value="39" />
+<Entry Label=" 2.0kHz" Value="40" />
+<Entry Label=" 2.2kHz" Value="41" />
+<Entry Label=" 2.5kHz" Value="42" />
+<Entry Label=" 2.8kHz" Value="43" />
+<Entry Label=" 3.2kHz" Value="44" />
+<Entry Label=" 3.6kHz" Value="45" />
+<Entry Label=" 4.0kHz" Value="46" />
+<Entry Label=" 4.5kHz" Value="47" />
+<Entry Label=" 5.0kHz" Value="48" />
+<Entry Label=" 5.6kHz" Value="49" />
+<Entry Label=" 6.3kHz" Value="50" />
+<Entry Label=" 7.0kHz" Value="51" />
+<Entry Label=" 8.0kHz" Value="52" />
+<Entry Label=" 9.0kHz" Value="53" />
+<Entry Label="10.0kHz" Value="54" />
+</Table>
+
+  <ControlChangeMacroList>
+    <Folder Name="PerformEdit">
+      <CCM ID="130" Name="PitchBend" Color="#0fa806" Sync="Last">
+        <Value Min="-8192" Max="8191" Offset="8192" />
+        <Memo>音程を変化させます。</Memo>
+        <Data>@PB #VH #VL</Data>
+      </CCM>
+      <CCM ID="140" Name="PitchBend Range" Sync="Last">
+        <Value Default="2" Min="0" Max="24" />
+        <Memo>ピッチベンドで変わる音程の最大値を設定します。12で1オクターブです。</Memo>
+        <Data>@RPN 00H 00H #VL #NONE</Data>
+      </CCM>
+      <CCM ID="11" Name="Expression" Color="#CA0000" Sync="Last">
+        <Value />
+        <Memo>パートの音量を設定します。主に演奏中の抑揚表現に使用します。</Memo>
+        <Data>@CC 11 #VL</Data>
+      </CCM>
+      <CCM ID="74" Name="CutOff" Color="#CA0000" Sync="Last">
+        <Value />
+        <Memo>未使用</Memo>
+        <Data>@CC 74 #VL</Data>
+      </CCM>
+      <CCM ID="64" Name="Hold1">
+        <Value>
+          <Entry Label="Off" Value="0" />
+          <Entry Label="On" Value="127" />
+        </Value>
+        <Memo>音を持続させるかどうかを設定します。</Memo>
+        <Data>@CC 64 #VL</Data>
+      </CCM>
+    </Folder>
+    <Folder Name="PartEdit">
+      <CCM ID="7" Name="Part Level" Color="#CA0000" Sync="Last">
+        <Value Default="100" />
+        <Memo>パートの音量バランスを設定します。</Memo>
+        <Data>@CC 7 #VL</Data>
+      </CCM>
+      <CCM ID="10" Name="Part Panpot" Color="#008080" Sync="Last">
+        <Value Min="-64" Max="63" Offset="64" />
+        <Memo>音の定位を設定します。</Memo>
+        <Data>@CC 10 #VL</Data>
+      </CCM>
+    </Folder>
+    <Folder Name="Other">
+      <CCM ID="6" Name="DataEntryMSB">
+        <Value />
+        <Memo>データエントリMSBを設定します。</Memo>
+        <Data>@CC 6 #VL</Data>
+      </CCM>
+      <CCM ID="100" Name="RPN LSB">
+        <Value />
+        <Memo></Memo>
+        <Data>@CC 100 #VL</Data>
+      </CCM>
+      <CCM ID="101" Name="RPN MSB">
+        <Value />
+        <Memo></Memo>
+        <Data>@CC 101 #VL</Data>
+      </CCM>
+      <CCM ID="121" Name="ResetAllController">
+        <Memo></Memo>
+        <Data>@CC 121 0</Data>
+      </CCM>
+      <CCM ID="123" Name="AllNoteOff">
+        <Memo></Memo>
+        <Data>@CC 123 0</Data>
+      </CCM>
+      <CCM ID="131" Name="131 ﾏｽﾀｰﾎﾞﾘｭｰﾑ" Color="#CC00FF" Sync="Last">
+        <Value Default="127" />
+        <Data>@SYSEX F0H 7FH 7FH 04H 01H 00H #VL F7H</Data>
+        <Memo>[GM Master Volume] 全体の音量。</Memo>
+      </CCM>
+      <CCM ID="200" Name="GM System ON">
+        <Data>@SYSEX F0H 7EH 7FH 09H 01H F7H</Data>
+        <Memo>[GM System On] GMの初期化ﾒｯｾｰｼﾞ。</Memo>
+      </CCM>
+      <CCM ID="143" Name="143 XG ｼｽﾃﾑ ｵﾝ" Color="#CC0000">
+        <Data>@SYSEX F0H 43H 10H 4CH 00H 00H 7EH 00H F7H</Data>
+        <Memo>[XG System On] XGの初期化ﾒｯｾｰｼﾞ。</Memo>
+      </CCM>
+      <CCM ID="141" Name="141 GS Reset" Color="#0000FF">
+        <Data>@SYSEX F0H 41H 10H 42H 12H 40H 00H 7FH 00H 41H F7H</Data>
+        <Memo>[GS Reset] GSの初期化ﾒｯｾｰｼﾞ。</Memo>
+      </CCM>
+      <CCM ID="128" Name="Rest" Color="#aaaaaa">
+        <Memo>休符です。</Memo>
+      </CCM>
+    </Folder>
+		<Folder Name="Multi EQ">
+			<CCM ID="273" Name="515-515 Multi EQ" Color="#6600CC">
+			<Data></Data>
+			<Memo>全体に掛かる 5ﾊﾞﾝﾄﾞEQ です。</Memo>
+			</CCM>
+			<CCM ID="515" Name="515 M-EQ EQ Type" Color="#FF3366">
+			<Value Max="4" TableID="20" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 00H #VL F7H</Data>
+			<Memo>Multi EQ のﾌﾟﾘｾｯﾄ。</Memo>
+			</CCM>
+			</Folder>
+			<Folder Name="Multi EQ Parameter">
+			<CCM ID="274" Name="Multi EQ Parameter" Color="#6600CC">
+			<Data></Data>
+			</CCM>
+			<Folder Name="000 Flat">
+			<Memo>EQ が機能していない状態。</Memo>
+			<CCM ID="516" Name="MEQ:P   EQ1 Frequency" Color="#FF3366">
+			<Value Default="12" Min="4" Max="40" TableID="28" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 02H #VL F7H</Data>
+			<Memo>EQ1 の周波数。</Memo>
+			</CCM>
+			<CCM ID="517" Name="MEQ:P   EQ1 Gain" Color="#FF3366">
+			<Value Default="64" Min="52" Max="76" TableID="9" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 01H #VL F7H</Data>
+			<Memo>EQ1 の増減量。
+			64 を基点として増減。</Memo>
+			</CCM>
+			<CCM ID="518" Name="MEQ:P   EQ1 Q" Color="#000000">
+			<Value Default="7" Min="1" Max="120" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 03H #VL F7H</Data>
+			<Memo>EQ1 の増減幅。
+			値が大きくなるほど狭くなる。</Memo>
+			</CCM>
+			<CCM ID="520" Name="MEQ:P   EQ2 Frequency" Color="#FF3366">
+			<Value Default="28" Min="14" Max="54" TableID="30" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 06H #VL F7H</Data>
+			<Memo>EQ2 の周波数。</Memo>
+			</CCM>
+			<CCM ID="521" Name="MEQ:P   EQ2 Gain" Color="#FF3366">
+			<Value Default="64" Min="52" Max="76" TableID="9" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 05H #VL F7H</Data>
+			<Memo>EQ2 の増減量。
+			64 を基点として増減。</Memo>
+			</CCM>
+			<CCM ID="522" Name="MEQ:P   EQ2 Q" Color="#000000">
+			<Value Default="7" Min="1" Max="120" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 07H #VL F7H</Data>
+			<Memo>EQ2 の増減幅。
+			値が大きくなるほど狭くなる。</Memo>
+			</CCM>
+			<CCM ID="523" Name="MEQ:P   EQ3 Frequency" Color="#FF3366">
+			<Value Default="34" Min="14" Max="54" TableID="30" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 0AH #VL F7H</Data>
+			<Memo>EQ3 の周波数。</Memo>
+			</CCM>
+			<CCM ID="524" Name="MEQ:P   EQ3 Gain" Color="#FF3366">
+			<Value Default="64" Min="52" Max="76" TableID="9" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 09H #VL F7H</Data>
+			<Memo>EQ3 の増減量。
+			64 を基点として増減。</Memo>
+			</CCM>
+			<CCM ID="525" Name="MEQ:P   EQ3 Q" Color="#000000">
+			<Value Default="7" Min="1" Max="120" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 0BH #VL F7H</Data>
+			<Memo>EQ3 の増減幅。
+			値が大きくなるほど狭くなる。</Memo>
+			</CCM>
+			<CCM ID="526" Name="MEQ:P   EQ4 Frequency" Color="#FF3366">
+			<Value Default="46" Min="14" Max="54" TableID="30" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 0EH #VL F7H</Data>
+			<Memo>EQ4 の周波数。</Memo>
+			</CCM>
+			<CCM ID="527" Name="MEQ:P   EQ4 Gain" Color="#FF3366">
+			<Value Default="64" Min="52" Max="76" TableID="9" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 0DH #VL F7H</Data>
+			<Memo>EQ4 の増減量。
+			64 を基点として増減。</Memo>
+			</CCM>
+			<CCM ID="528" Name="MEQ:P   EQ4 Q" Color="#000000">
+			<Value Default="7" Min="1" Max="120" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 0FH #VL F7H</Data>
+			<Memo>EQ4 の増減幅。
+			値が大きくなるほど狭くなる。</Memo>
+			</CCM>
+			<CCM ID="529" Name="MEQ:P   EQ5 Frequency" Color="#FF3366">
+			<Value Default="52" Min="28" Max="58" TableID="29" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 12H #VL F7H</Data>
+			<Memo>EQ5 の周波数。</Memo>
+			</CCM>
+			<CCM ID="530" Name="MEQ:P   EQ5 Gain" Color="#FF3366">
+			<Value Default="64" Min="52" Max="76" TableID="9" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 11H #VL F7H</Data>
+			<Memo>EQ5 の増減量。
+			64 を基点として増減。</Memo>
+			</CCM>
+			<CCM ID="531" Name="MEQ:P   EQ5 Q" Color="#000000">
+			<Value Default="7" Min="1" Max="120" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 13H #VL F7H</Data>
+			<Memo>EQ5 の増減幅。
+			値が大きくなるほど狭くなる。</Memo>
+			</CCM>
+			</Folder>
+			<Folder Name="001 Jazz">
+			<CCMLink ID="516" Value="8" />
+			<CCMLink ID="517" Value="58" />
+			<CCMLink ID="518" Value="7" />
+			<CCMLink ID="520" Value="16" />
+			<CCMLink ID="521" Value="66" />
+			<CCMLink ID="522" Value="3" />
+			<CCMLink ID="523" Value="33" />
+			<CCMLink ID="524" Value="68" />
+			<CCMLink ID="525" Value="3" />
+			<CCMLink ID="526" Value="44" />
+			<CCMLink ID="527" Value="60" />
+			<CCMLink ID="528" Value="5" />
+			<CCMLink ID="529" Value="50" />
+			<CCMLink ID="530" Value="58" />
+			<CCMLink ID="531" Value="7" />
+			</Folder>
+			<Folder Name="002 Pops">
+			<CCMLink ID="516" Value="16" />
+			<CCMLink ID="517" Value="68" />
+			<CCMLink ID="518" Value="7" />
+			<CCMLink ID="520" Value="24" />
+			<CCMLink ID="521" Value="60" />
+			<CCMLink ID="522" Value="20" />
+			<CCMLink ID="523" Value="34" />
+			<CCMLink ID="524" Value="67" />
+			<CCMLink ID="525" Value="7" />
+			<CCMLink ID="526" Value="40" />
+			<CCMLink ID="527" Value="60" />
+			<CCMLink ID="528" Value="20" />
+			<CCMLink ID="529" Value="48" />
+			<CCMLink ID="530" Value="70" />
+			<CCMLink ID="531" Value="7" />
+			</Folder>
+			<Folder Name="003 Rock">
+			<CCMLink ID="516" Value="16" />
+			<CCMLink ID="517" Value="71" />
+			<CCMLink ID="518" Value="7" />
+			<CCMLink ID="520" Value="20" />
+			<CCMLink ID="521" Value="68" />
+			<CCMLink ID="522" Value="7" />
+			<CCMLink ID="523" Value="36" />
+			<CCMLink ID="524" Value="60" />
+			<CCMLink ID="525" Value="5" />
+			<CCMLink ID="526" Value="41" />
+			<CCMLink ID="527" Value="68" />
+			<CCMLink ID="528" Value="10" />
+			<CCMLink ID="529" Value="50" />
+			<CCMLink ID="530" Value="66" />
+			<CCMLink ID="531" Value="7" />
+			</Folder>
+			<Folder Name="004 Concert">
+			<CCMLink ID="516" Value="12" />
+			<CCMLink ID="517" Value="67" />
+			<CCMLink ID="518" Value="7" />
+			<CCMLink ID="520" Value="24" />
+			<CCMLink ID="521" Value="68" />
+			<CCMLink ID="522" Value="7" />
+			<CCMLink ID="523" Value="34" />
+			<CCMLink ID="524" Value="64" />
+			<CCMLink ID="525" Value="5" />
+			<CCMLink ID="526" Value="50" />
+			<CCMLink ID="527" Value="66" />
+			<CCMLink ID="528" Value="7" />
+			<CCMLink ID="529" Value="52" />
+			<CCMLink ID="530" Value="61" />
+			<CCMLink ID="531" Value="7" />
+			</Folder>
+		</Folder>
+  </ControlChangeMacroList>
+  <TemplateList>
+    <Template ID="0" Name="トラック初期化">
+      <Memo>トラック初期化用テンプレートです。</Memo>
+      <CC ID="7" Value="100" />
+      <CC ID="10" Value="0" />
+      <PC Mode="Auto" />
+      <CC ID="130" Value="0" />
+      <CC ID="11" Value="127" />
+    </Template>
+  </TemplateList>
+  <DefaultData>
+    <Track Mode="Conductor">
+      <Mark Tick="0" Name="Setup" />
+      <Tempo Tick="0" Tempo="120.0" />
+      <Mark Tick="1920" Name="Start" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Name="Setup" Ch="1">
+      <CC Tick="0" ID="200" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="1" Current="1">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="2">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="3">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="4">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="5">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="6">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="7">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="8">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="9">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Name="Rhythm" Ch="10" Mode="Rhythm">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="11">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="12">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="13">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="14">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="15">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+    <Track Ch="16">
+      <Template ID="0" Tick="480" />
+      <EOT Tick="1920" />
+    </Track>
+  </DefaultData>
+</ModuleData>
