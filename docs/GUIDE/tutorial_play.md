@@ -25,22 +25,36 @@ MIDIシーケンサのDominoとプレーヤーのTMIDI Playerでの使用手順�
 
 ## Dominoで使う
 
-Dominoの導入手順については割愛させていただきます。
+Dominoの導入手順については省略します。
+
+1. [ダウンロード](../download.md)からDominoの定義ファイルをダウンロードします
+
+2. Dominoを開き、「環境設定」→「MIDI-OUT」を選択します
+
+3. ポートAのデバイスを「SuperOctet!」、音源を「すーぱーおくてっと！」にしてOKを押します
+
+4. 適当なノートを置いて音が出ることを確認してください
+
+![Domino設定](../img/domino_def.png)
+
+これでDominoで本音源をお使いいただけます。
+
 
 ## TMIDI Playerで使う
 
-TMIDI Playerの導入手順については割愛させていただきます。
+TMIDI Playerの導入手順については省略します。
 
 1. 「オプション」→「MIDI設定」から設定画面を開きます
 
 2. 「ポート」のタブを選択しポートAに「SuperOctet!」を指定しOKを押します
+
+3. あとはお好みのMIDIをドラッグアンドドロップで再生することができます
+
 
 ![TMIDIPlayerの音源設定](../img/guide_tmidi_1.png)
 
 !!! note inline end "情報"
 
     「エミュレーション」タブの設定はしない方が良いです。
-
-3. あとはお好みのMIDIをドラッグアンドドロップで再生することができます
 
 ![TMIDIPlayerでMIDI再生](../img/guide_tmidi_2.png)
