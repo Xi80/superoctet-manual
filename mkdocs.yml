@@ -2,3 +2,6 @@ site_name: 「すーぱーおくてっと！」取扱説明書
 theme: windmill
 nav:
   - Home: index.md
+  - ファームウェア更新:
+    - 波形生成プロセッサ: FW_UPDATE/tg.md
+    - 周辺制御プロセッサ: FW_UPDATE/pp.md
