@@ -11,7 +11,6 @@ nav:
     - インプリメンテーション: MIDI_SPEC/impl.md
     - システムエクスクルーシブ: MIDI_SPEC/sysex.md
   - ダウンロード: download.md
-  - 免責: cautions.md
   - ライセンス: license.md
 
 markdown_extensions:
