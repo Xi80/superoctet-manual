@@ -7,6 +7,9 @@ nav:
     - 波形生成プロセッサ: FW_UPDATE/tg.md
     - 周辺制御プロセッサ: FW_UPDATE/pp.md
   - 免責・注意事項: CAUTIONS/cautions.md
+  - MIDI仕様:
+    - インプリメンテーション: MIDI_SPEC/impl.md
+    - システムエクスクルーシブ: MIDI_SPEC/sysex.md
 
 markdown_extensions:
   - admonition

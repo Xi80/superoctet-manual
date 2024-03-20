@@ -27,7 +27,7 @@ title: ファームウェア更新(周辺制御プロセッサ)
 
 ![BOOTスイッチ](img/boot_sw.jpg)
 
-!!! tips inline end "情報"
+!!! tip inline end "情報"
 
     USBケーブル接続時でも、BOOTスイッチを押しっぱなしにしながら隣のRESETボタンを一回押すことによってブートローダモードに入ることができます。
 
