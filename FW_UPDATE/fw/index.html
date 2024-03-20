@@ -8,10 +8,10 @@
     
     
     
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="../../img/favicon.ico">
 
     
-    <title>はじめに - 「すーぱーおくてっと！」取扱説明書</title>
+    <title>ファームウェア更新 - 「すーぱーおくてっと！」取扱説明書</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
     <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap-custom.min.css" rel="stylesheet">
-    <link href="css/base.min.css" rel="stylesheet">
-    <link href="css/cinder.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
 
     
         
@@ -40,7 +40,7 @@
      
 </head>
 
-<body class="homepage" >
+<body>
 
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -59,7 +59,7 @@
             <!-- Main title -->
 
             
-              <a class="navbar-brand" href=".">「すーぱーおくてっと！」取扱説明書</a>
+              <a class="navbar-brand" href="../..">「すーぱーおくてっと！」取扱説明書</a>
             
         </div>
 
@@ -69,31 +69,31 @@
                 <ul class="nav navbar-nav">
                 
                 
-                    <li class="active">
-                        <a href=".">はじめに</a>
+                    <li >
+                        <a href="../..">はじめに</a>
                     </li>
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">ファームウェア更新 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li >
-    <a href="FW_UPDATE/fw/">ファームウェア更新</a>
+<li class="active">
+    <a href="./">ファームウェア更新</a>
 </li>
 
                         
                             
 <li >
-    <a href="FW_UPDATE/tg/">波形生成プロセッサ</a>
+    <a href="../tg/">波形生成プロセッサ</a>
 </li>
 
                         
                             
 <li >
-    <a href="FW_UPDATE/pp/">周辺制御プロセッサ</a>
+    <a href="../pp/">周辺制御プロセッサ</a>
 </li>
 
                         
@@ -103,7 +103,7 @@
                 
                 
                     <li >
-                        <a href="CAUTIONS/cautions/">免責・注意事項</a>
+                        <a href="../../CAUTIONS/cautions/">免責・注意事項</a>
                     </li>
                 
                 
@@ -115,13 +115,13 @@
                             <i class="fas fa-search"></i> Search
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../..">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="FW_UPDATE/fw/">
+                        <a rel="next" href="../tg/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -136,74 +136,65 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#_1">はじめに</a></li>
-            <li class="second-level"><a href="#_2">「すーぱーおくてっと！」とは？</a></li>
-                
-            <li class="second-level"><a href="#_3">本音源の特徴</a></li>
-                
-            <li class="second-level"><a href="#_4">動作確認環境</a></li>
-                
-            <li class="second-level"><a href="#_5">仕様</a></li>
-                
+        <li class="first-level "><a href="#_2">蛇足(なぜ二つのマイコンで構成されているか)</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="_1">はじめに</h1>
-<p><img alt="すーぱーおくてっと！" src="top.jpg" /></p>
-<p>本文書では「すーぱーおくてっと！」(以下本音源の)使用方法について記述します。</p>
-<h2 id="_2">「すーぱーおくてっと！」とは？</h2>
-<p>MiniDVテープサイズ(W×H×D=66x48x12[mm])のMIDI音源です。</p>
-<p>音源部には8オペレータのソフトウェアFM音源を使用しており、最大32和音(メロディー24音/リズム8音)を鳴らすことができます。</p>
-<p>また、MMX(Multi Module eXtension)機能を搭載しているのでスタックするだけで発音数を増加させることができます。</p>
-<h2 id="_3">本音源の特徴</h2>
+<p>この項では本音源のファームウェアを更新する方法を説明します。</p>
+<h2 id="_1">はじめに</h2>
+<p>本音源は波形生成プロセッサ(Kendryte K210)と周辺制御プロセッサ(RP2040)の二つのマイコンで構成されています。
+そのため、本音源のファームウェアを更新するにはそれぞれに適切なファームウェアを書き込む必要があります。</p>
+<p>それぞれのページで解説します。</p>
+<p><a href="/FW_UPDATE/tg">波形生成プロセッサ</a></p>
+<p><a href="/FW_UPDATE/pp">周辺制御プロセッサ</a></p>
+<h2 id="_2">蛇足(なぜ二つのマイコンで構成されているか)</h2>
+<p>せっかくなので何故マイコンを二つに分けたのかを書いておきます。</p>
+<p>開発初期にはDIN5ピンのケーブルで接続するいわゆる「普通のMIDI」を使用しており、マイコンもKendryte K210一つでした。
+しかし、小型化をするにあたってDIN5ピンのコネクタは大きすぎたためUSB-MIDIを採用することになりました。TRS-MIDIという3.5mmのイヤホンジャックと同じ端子を用いた規格もありましたが次の理由から採用しませんでした。</p>
 <ul>
-<li>
-<p>MiniDVテープサイズで非常に小型</p>
-</li>
-<li>
-<p>往年のFM音源よりパワーアップしたソフトウェアFM音源による豪華な音色</p>
-<ul>
-<li>最大8オペレータ、フリーアルゴリズム</li>
+<li>ピン配置がバラバラの場合がある<ul>
+<li>ほぼ統一されたようですがたまに異なるピン配置の機器が存在します</li>
 </ul>
 </li>
-<li>
-<p>USB-Cケーブル一本で接続可能</p>
-<ul>
-<li>対応環境ではドライバ不要で認識されます</li>
+<li>電力の供給が別途必要<ul>
+<li>DIN5ピンと流れる信号は全く同じなので電力は別に供給する必要があります</li>
 </ul>
 </li>
-<li>
-<p>GM Level1に一部準拠</p>
-<ul>
-<li>既存のデータを活用できます</li>
+<li>イヤホンジャックと間違える可能性<ul>
+<li>同じコネクタが2つあるのはミスのもとになり得ます</li>
 </ul>
 </li>
-<li>
-<p>スタックすることにより発音数を増加</p>
-<ul>
-<li>MMX(Multi Module eXtension)と呼んでいます</li>
+<li>スペース的制約<ul>
+<li>イヤホンジャックは意外と奥行き方向にスペースが必要です</li>
 </ul>
 </li>
 </ul>
-<h2 id="_4">動作確認環境</h2>
+<p>そのため、本音源はUSB-MIDIを使用することにより上のすべての問題を解決しようと試みました。
+USB-Cコネクタであれば背も低く、裏表を気にしなくてよいという利便性も得られます。</p>
+<p>しかし、問題点として波形生成プロセッサはUARTはあってもUSBペリフェラルは内蔵していませんでした。そのため何らかのICを外付けしてUSB-MIDIに対応させる必要があります。この時候補に挙がったのが次のものです。</p>
 <ul>
-<li>
-<p>Windows 7/8.1/10/11</p>
-<ul>
-<li>Windows XP以前では動作しません</li>
+<li><a href="https://www.microchip.com/en-us/product/ATmega32U4">ATMEGA32U4</a><ul>
+<li>Arduino Leonardoなどでお馴染みAVRマイコン</li>
+<li>性能のわりに高すぎる(640円)ため見送り</li>
 </ul>
 </li>
-<li>
-<p>Ubuntu 22.04</p>
+<li><a href="https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html">RP2040</a><ul>
+<li>安くて高性能</li>
+<li>QSPIのFlashが外付けだったりコンデンサがたくさん必要だったりで周辺部品が多め</li>
+</ul>
 </li>
-<li>
-<p>MacOS X 10.5以降</p>
-<ul>
-<li>PowerPC/Intel両方で動作確認</li>
+<li><a href="https://www.wch-ic.com/products/CH345.html">CH345T</a><ul>
+<li>CH340(USB-シリアル変換IC)などでお馴染みWCH製</li>
+<li>多分中身は8051とかのマイコン</li>
+<li>USB-MIDI Bridgeとかいうほしいものそのまんまな素晴らしい(ように見える)石</li>
 </ul>
 </li>
 </ul>
-<h2 id="_5">仕様</h2></div>
+<p>最初(Rev.A)ではCH345Tを採用しました。これはUSBを2ポートのMIDIに変換するICで、周辺回路は12MHzの水晶だけです。「なんて便利な石なんだ！」と思って調子に乗り20個ほど注文しましたが実際には使い物になりませんでした。</p>
+<p>理由は単純で、「システムエクスクルーシブメッセージに対応していない」からです。
+何も流してこないのであればまだ対処のしようがありました。しかし、実際にはメッセージを破壊した状態で送ってくるので手が付けられませんでした。</p>
+<p>そのため、次のRev.BからはRP2040をUSB-MIDI変換ブリッジとして使用しています。周辺部品が結構多めで、USBだけ担当させるのは勿体ないと感じたので液晶をつけたりボタンをつけたりSDカードスロットをつけたり(F/W未実装)と機能がゴテゴテと増えていき今に至ります。</p></div>
         
         
     </div>
@@ -223,7 +214,7 @@
       </footer>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
 
     
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
@@ -231,10 +222,10 @@
     <script>hljs.initHighlightingOnLoad();</script>
     
 
-    <script>var base_url = "."</script>
+    <script>var base_url = "../.."</script>
     
-    <script src="js/base.js"></script>
-    <script src="search/main.js"></script>
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -305,8 +296,3 @@
     </body>
 
 </html>
-
-<!--
-MkDocs version : 1.5.3
-Build Date UTC : 2024-03-20 05:54:27.343084+00:00
--->
