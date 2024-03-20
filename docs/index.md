@@ -1,17 +1,45 @@
-# Welcome to MkDocs
+---
+title: はじめに
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# はじめに
 
-## Commands
+![すーぱーおくてっと！](top.jpg)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+本文書では「すーぱーおくてっと！」(以下本音源の)使用方法について記述します。
 
-## Project layout
+## 「すーぱーおくてっと！」とは？
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+MiniDVテープサイズ(W×H×D=66x48x12[mm])のMIDI音源です。
+
+音源部には8オペレータのソフトウェアFM音源を使用しており、最大32和音(メロディー24音/リズム8音)を鳴らすことができます。
+
+また、MMX(Multi Module eXtension)機能を搭載しているのでスタックするだけで発音数を増加させることができます。
+
+## 本音源の特徴
+
+- MiniDVテープサイズで非常に小型
+
+- 往年のFM音源よりパワーアップしたソフトウェアFM音源による豪華な音色
+    - 最大8オペレータ、フリーアルゴリズム
+
+- USB-Cケーブル一本で接続可能
+    - 対応環境ではドライバ不要で認識されます
+
+- GM Level1に一部準拠
+    - 既存のデータを活用できます
+
+- スタックすることにより発音数を増加
+    - MMX(Multi Module eXtension)と呼んでいます
+
+## 動作確認環境
+
+- Windows 7/8.1/10/11
+    - Windows XP以前では動作しません
+
+- Ubuntu 22.04
+
+- MacOS X 10.5以降
+    - PowerPC/Intel両方で動作確認
+
+## 仕様

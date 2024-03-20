@@ -1,7 +1,13 @@
 site_name: 「すーぱーおくてっと！」取扱説明書
-theme: windmill
+theme: cinder
 nav:
-  - Home: index.md
+  - はじめに: index.md
   - ファームウェア更新:
+    - ファームウェア更新: FW_UPDATE/fw.md
     - 波形生成プロセッサ: FW_UPDATE/tg.md
     - 周辺制御プロセッサ: FW_UPDATE/pp.md
+  - 免責・注意事項: CAUTIONS/cautions.md
+
+markdown_extensions:
+  - admonition
+  - abbr
