@@ -171,7 +171,69 @@
 <h1 id="mmx">MMXについて</h1>
 <p>この項ではMMX(Multi Module eXtension)の物理・論理的仕様について記述します。</p>
 <h2 id="_1">物理的仕様</h2>
-<h2 id="_2">論理的仕様</h2></div>
+<p><img alt="MMXピン配置" src="../../img/mmx_pinout.jpg" /></p>
+<p>図に示すピン番号と信号名の対応を次に示します。</p>
+<table>
+<thead>
+<tr>
+<th>ピン番号</th>
+<th>機能(表)</th>
+<th>機能(裏)</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>VBUS</td>
+<td>VBUS</td>
+<td>5V電源</td>
+</tr>
+<tr>
+<td>2</td>
+<td>MMX_SDA</td>
+<td>MMX_SDA</td>
+<td><strong>3.3Vレベル</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td>AUDIO_LOUT</td>
+<td>AUDIO_LIN</td>
+<td>バイアス1.65V</td>
+</tr>
+<tr>
+<td>4</td>
+<td>MMX_SCL</td>
+<td>MMX_SCL</td>
+<td><strong>3.3Vレベル</strong></td>
+</tr>
+<tr>
+<td>5</td>
+<td>AUDIO_ROUT</td>
+<td>AUDIO_RIN</td>
+<td>バイアス1.65V</td>
+</tr>
+<tr>
+<td>6</td>
+<td>GND</td>
+<td>GND</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition danger inline end">
+<p class="admonition-title">警告</p>
+<p>電源電圧(VBUS)は5Vですが信号線は3.3Vレベルです、絶対に5Vレベルの信号を入力しないでください！</p>
+</div>
+<p>音声信号は裏から入力し、ミキシングしたうえで表に出力します。</p>
+<h2 id="_2">論理的仕様</h2>
+<p>データの通信にはI2Cプロトコル(@400kHz)を使用し、MIDIデータをやり取りします。</p>
+<p>スレーブデバイスは起動時に10h~20hの範囲で開いているスレーブアドレスを検索し空いているアドレスを自局アドレスに設定します。</p>
+<p>マスターは起動後十分時間が経ってからアドレス検索をし、正しい応答があったデバイスをスレーブとして登録します。</p>
+<div class="admonition note inline end">
+<p class="admonition-title">情報</p>
+<p>アドレスの自動割り当てが不要な場合はジョグを押し込みながら起動するとアドレスが12hに固定されます</p>
+</div></div>
         
         
     </div>
