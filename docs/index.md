@@ -6,6 +6,9 @@ title: はじめに
 
 ![すーぱーおくてっと！](top.jpg)
 
+
+<button type="button" class="btn btn-danger" style="display:block;margin:auto" onclick="window.location.href='https://feng-elec.booth.pm/items/5573638'"><span style="font-size:40px;">Boothで購入する</span></button>
+
 本文書では「すーぱーおくてっと！」(以下本音源の)使用方法について記述します。
 
 ## 「すーぱーおくてっと！」とは？
@@ -43,3 +46,24 @@ MiniDVテープサイズ(W×H×D=66x48x12[mm])のMIDI音源です。
     - PowerPC/Intel両方で動作確認
 
 ## 仕様
+
+!!! warning inline end "情報"
+
+    今後仕様変更の可能性があります、ご注意ください。
+
+|仕様項目      |詳細                                                            |
+|--------------|----------------------------------------------------------------|
+|音源方式      |8オペレータソフトウェアFM音源<br>htsfmsサブセット               |
+|プリセット音色|メロディ128種類×3バンク(重複あり)<br>ドラムセット1種類<br>GM配列|
+|パート数      |16パート                                                        |
+|最大同時発音数|メロディー24音<br>リズム8音                                     |
+|エフェクト    |5バンド全体EQ<br>DAC内蔵フィルタブロックによる                  |
+|コネクタ      |USB-C<br>3.5mmステレオジャック                                  |
+|出力仕様      |ステレオ16bit/32kHz                                             |
+|ディスプレイ  |1.3インチ TFT液晶                                               |
+|電源          |USBバスパワー駆動                                               |
+|サイズ(W×H×D) |66x48x12[mm]                                                    |
+|本体重量      |To Be Measured                                                  |
+|消費電流      |定常時0.75W(5V150mA)/ユニット                                   |
+
+
