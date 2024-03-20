@@ -1,0 +1,4 @@
+site_name: 「すーぱーおくてっと！」取扱説明書
+theme: windmill
+nav:
+  - Home: index.md
