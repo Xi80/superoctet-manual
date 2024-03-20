@@ -77,6 +77,6 @@ title: MIDIインプリメンテーション
 |`97`                     |`Bank 0.5` |htsfms0.5相当                              |
 |`98`                     |`User Bank`|ユーザー音色<br>未設定の場合音が出ません   |
 
-!!! tip inline end "情報"
+!!! warning inline end "注意"
 
     本音源のFM音源はLFOやノイズ発振などの機能がないため0.9相当の音色の一部は正常に鳴らすことができません。
