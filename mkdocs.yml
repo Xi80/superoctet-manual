@@ -1,19 +1,34 @@
-site_name: 「すーぱーおくてっと！」取扱説明書
+site_name: すーぱーおくてっと！取扱説明書
 theme: cinder
 nav:
   - はじめに: index.md
-  - ファームウェア更新:
-    - ファームウェア更新: FW_UPDATE/fw.md
-    - 波形生成プロセッサ: FW_UPDATE/tg.md
-    - 周辺制御プロセッサ: FW_UPDATE/pp.md
+  - 使い方ガイド:
+    - 電源投入まで: GUIDE/tutorial_init.md
+    - 本体の操作: GUIDE/tutorial_hard.md
+    - PCで使う: GUIDE/tutorial_play.md
+    - ファームウェア更新: fwupdate.md
   - MIDI仕様:
     - インプリメンテーション: MIDI_SPEC/impl.md
     - システムエクスクルーシブ: MIDI_SPEC/sysex.md
-  - 免責・注意事項: CAUTIONS/cautions.md
-  - ライセンス表示: license.md
-  
+  - ダウンロード: download.md
+  - 免責: cautions.md
+  - ライセンス: license.md
+
 markdown_extensions:
   - admonition
   - abbr
   - attr_list
   - md_in_html
+
+theme:
+  name: cinder
+  # Turn off Previous/Next navigation links in the navbar
+  disable_nav_previous_next: true
+  # Turn off Search in the navbar
+  disable_nav_search: true
+  # Turn off the site_name link in the navbar
+  disable_nav_site_name: false
+  # Turn off the footer entirely
+  disable_footer: true
+  # Turn off the default footer message, but display the page revision date if it's available
+  disable_footer_except_revision: true

@@ -4,8 +4,9 @@ title: はじめに
 
 # はじめに
 
-![すーぱーおくてっと！](top.jpg)
+![ロゴ](logo.png)
 
+![すーぱーおくてっと！](top.jpg)
 
 <button type="button" class="btn btn-danger" style="display:block;margin:auto" onclick="window.location.href='https://feng-elec.booth.pm/items/5573638'"><span style="font-size:40px;">Boothで購入する</span></button>
 
@@ -44,6 +45,20 @@ MiniDVテープサイズ(W×H×D=66x48x12[mm])のMIDI音源です。
 
 - MacOS X 10.5以降
     - PowerPC/Intel両方で動作確認
+
+## 注意事項
+
+- 本機器は開発段階であり、今後ハードウェア・ソフトウェア双方が大幅な変更されることがあります
+    - ハードウェアの差異を吸収できるよう努めますが、場合によっては旧版のハードウェアのサポートを打ち切ることがあります
+
+- ソフトウェアについては現状ほとんどの機能が未実装です。
+    - GM Level1準拠のデータの再生は概ね可能です
+
+- 液晶が大変脆いため強い力を天板に加えないでください
+    - ライン欠け等の原因になります
+
+- かなり発熱します
+    - 熱破壊の恐れがあるため使用環境にはご注意ください
 
 ## 仕様
 
