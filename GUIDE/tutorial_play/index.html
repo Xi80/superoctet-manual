@@ -109,18 +109,24 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">MIDI仕様 <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">仕様 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../MIDI_SPEC/impl/">インプリメンテーション</a>
+    <a href="../../SPEC/mmx/">MMXについて</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../MIDI_SPEC/sysex/">システムエクスクルーシブ</a>
+    <a href="../../SPEC/impl/">MIDIインプリメンテーション</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../SPEC/sysex/">システムエクスクルーシブ</a>
 </li>
 
                         
@@ -153,11 +159,51 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#pc">PCで使う</a></li>
+            <li class="second-level"><a href="#domino">Dominoで使う</a></li>
+                
+            <li class="second-level"><a href="#tmidi-player">TMIDI Playerで使う</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
+<h1 id="pc">PCで使う</h1>
+<p>この項ではPCで本音源を使用する手順について記述します。</p>
+<p>MIDIシーケンサのDominoとプレーヤーのTMIDI Playerでの使用手順それぞれを記述します。</p>
+<p>以前の使い方ガイドでPCに接続されており適切に音量設定がされていることが前提です。</p>
+<div class="admonition danger inline end">
+<p class="admonition-title">警告</p>
+<p>本音源はかなり発熱します！</p>
+<p>熱破壊の恐れがあるため使用環境にはご注意ください</p>
 </div>
+<div class="admonition warning inline end">
+<p class="admonition-title">注意</p>
+<p>本音源は複数のアプリケーションから同時に開くことができません！</p>
+<p>どうしても同時に使用したい場合は別途loopMIDIやMIDI-OXを組み合わせてください。</p>
+<p>なお、この手順については解説しません。</p>
+</div>
+<h2 id="domino">Dominoで使う</h2>
+<p>Dominoの導入手順については割愛させていただきます。</p>
+<h2 id="tmidi-player">TMIDI Playerで使う</h2>
+<p>TMIDI Playerの導入手順については割愛させていただきます。</p>
+<ol>
+<li>
+<p>「オプション」→「MIDI設定」から設定画面を開きます</p>
+</li>
+<li>
+<p>「ポート」のタブを選択しポートAに「SuperOctet!」を指定しOKを押します</p>
+</li>
+</ol>
+<p><img alt="TMIDIPlayerの音源設定" src="../../img/guide_tmidi_1.png" /></p>
+<div class="admonition note inline end">
+<p class="admonition-title">情報</p>
+<p>「エミュレーション」タブの設定はしない方が良いです。</p>
+</div>
+<ol>
+<li>あとはお好みのMIDIをドラッグアンドドロップで再生することができます</li>
+</ol>
+<p><img alt="TMIDIPlayerでMIDI再生" src="../../img/guide_tmidi_2.png" /></p></div>
         
         
     </div>
