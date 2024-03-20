@@ -7,9 +7,10 @@ nav:
     - 本体の操作: GUIDE/tutorial_hard.md
     - PCで使う: GUIDE/tutorial_play.md
     - ファームウェア更新: fwupdate.md
-  - MIDI仕様:
-    - インプリメンテーション: MIDI_SPEC/impl.md
-    - システムエクスクルーシブ: MIDI_SPEC/sysex.md
+  - 仕様:
+    - MMXについて: SPEC/mmx.md
+    - MIDIインプリメンテーション: SPEC/impl.md
+    - システムエクスクルーシブ: SPEC/sysex.md
   - ダウンロード: download.md
   - ライセンス: license.md
 
