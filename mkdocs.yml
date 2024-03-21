@@ -8,6 +8,7 @@ nav:
     - PCで使う: GUIDE/tutorial_play.md
     - ファームウェア更新: fwupdate.md
   - 仕様:
+    - ハードウェア: SPEC/hard.md
     - MMXについて: SPEC/mmx.md
     - MIDIインプリメンテーション: SPEC/impl.md
     - システムエクスクルーシブ: SPEC/sysex.md
