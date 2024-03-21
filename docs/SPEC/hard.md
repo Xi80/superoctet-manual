@@ -14,28 +14,4 @@ title: ハードウェア仕様
 |周辺制御プロセッサ |RP2040         |133MHz2コアCortexM0+     |
 |DAC                |TLV320DAC3101  |S/N比:95dB<br>Fs=8~192kHz|
 
-## 開発環境
-
-使用OS:Ubuntu 22.04
-
-### Kendryte K210
-
-Standalone SDK
-
-### RP2040
-
-pico-sdk
-
-## 寸法
-
 ![寸法図](../img/pcb_dim.png)
-
-## 基板図
-
-### 表
-
-![PCB表](../img/pcb_top.jpg)
-
-### 裏
-
-![PCB裏](../img/pcb_bot.jpg)
