@@ -180,9 +180,11 @@ FM-tone-generator
 
 起動後のメッセージが表示されたら書き込みは完了です。`Ctrl+]`でシリアルコンソールを終了します。
 
-### Windows + kflash_gui
+### Windows + kflash_gui(おすすめ)
 
 次にGUIから書き込みが可能な`kflash_gui`による方法を説明します。
+
+こちらはインストール不要で書き込めるのでWindows環境の方にはお勧めです。
 
 まず、[GitHubのReleases](https://github.com/sipeed/kflash_gui/releases)から`kflash_gui`をダウンロードします。
 
