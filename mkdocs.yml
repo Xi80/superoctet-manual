@@ -6,6 +6,7 @@ nav:
     - 電源投入まで: GUIDE/tutorial_init.md
     - 本体の操作: GUIDE/tutorial_hard.md
     - PCで使う: GUIDE/tutorial_play.md
+    - 音色を作る: GUIDE/tutorial_make.md
     - ファームウェア更新: fwupdate.md
   - 仕様:
     - ハードウェア: SPEC/hard.md

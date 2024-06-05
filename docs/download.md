@@ -18,7 +18,7 @@ Dominoを開き、「環境設定(F12)」から音源を指定してください
 
 ファームウェアの更新方法は[ファームウェア更新](fwupdate.md)を参照してください。
 
-[波形生成プロセッサFW 1.3.7](files/fw/TG137.bin)
+[波形生成プロセッサFW 1.4.0](files/fw/TG140.bin)
 
 [周辺制御プロセッサFW 0.4.5](files/fw/PP045.uf2)
 
@@ -36,6 +36,6 @@ Dominoを開き、「環境設定(F12)」から音源を指定してください
 
 超アルファ版につき見て使い方が分かる人向けです。
 
-[SuperComposer GUI 20240319版](files/SuperComposerGUI_20240319.zip)
+[SuperComposer GUI 20240605版](files/SuperComposerGUI_20240605.zip)
 
 ![音色エディタ](img/tone_edit.png)
