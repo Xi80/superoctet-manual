@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="Shift_JIS"?>
-<ModuleData Name="すーぱーおくてっと！" Folder="" Priority="1" FileCreator="Luna Tsukinashi(feng)" FileVersion="1.05" WebSite="https://feng-elec.com">
+<ModuleData Name="すーぱーおくてっと！" Folder="" Priority="1" FileCreator="Luna Tsukinashi(feng)" FileVersion="1.10" WebSite="https://feng-elec.com">
   <RhythmTrackDefault Gate="1" />
   <ExclusiveEventDefault Data="F0H 43H 10H 4CH F7H" />
   <InstrumentList>
@@ -1117,140 +1117,30 @@
       </PC>
     </Map>
   </DrumSetList>
-	<Table ID="9">
-		<Entry Label=" 52  -12" Value="52" />
-		<Entry Label=" 53  -11" Value="53" />
-		<Entry Label=" 54  -10" Value="54" />
-		<Entry Label=" 55  -09" Value="55" />
-		<Entry Label=" 56  -08" Value="56" />
-		<Entry Label=" 57  -07" Value="57" />
-		<Entry Label=" 58  -06" Value="58" />
-		<Entry Label=" 59  -05" Value="59" />
-		<Entry Label=" 60  -04" Value="60" />
-		<Entry Label=" 61  -03" Value="61" />
-		<Entry Label=" 62  -02" Value="62" />
-		<Entry Label=" 63  -01" Value="63" />
-		<Entry Label=" 64  ±0" Value="64" />
-		<Entry Label=" 65  +01" Value="65" />
-		<Entry Label=" 66  +02" Value="66" />
-		<Entry Label=" 67  +03" Value="67" />
-		<Entry Label=" 68  +04" Value="68" />
-		<Entry Label=" 69  +05" Value="69" />
-		<Entry Label=" 70  +06" Value="70" />
-		<Entry Label=" 71  +07" Value="71" />
-		<Entry Label=" 72  +08" Value="72" />
-		<Entry Label=" 73  +09" Value="73" />
-		<Entry Label=" 74  +10" Value="74" />
-		<Entry Label=" 75  +11" Value="75" />
-		<Entry Label=" 76  +12" Value="76" />
-	</Table>
-	<Table ID="28">
-		<Entry Label="   32Hz" Value="4" />
-		<Entry Label="   36Hz" Value="5" />
-		<Entry Label="   40Hz" Value="6" />
-		<Entry Label="   45Hz" Value="7" />
-		<Entry Label="   50Hz" Value="8" />
-		<Entry Label="   56Hz" Value="9" />
-		<Entry Label="   63Hz" Value="10" />
-		<Entry Label="   70Hz" Value="11" />
-		<Entry Label="   80Hz" Value="12" />
-		<Entry Label="   90Hz" Value="13" />
-		<Entry Label="  100Hz" Value="14" />
-		<Entry Label="  110Hz" Value="15" />
-		<Entry Label="  125Hz" Value="16" />
-		<Entry Label="  140Hz" Value="17" />
-		<Entry Label="  160Hz" Value="18" />
-		<Entry Label="  180Hz" Value="19" />
-		<Entry Label="  200Hz" Value="20" />
-		<Entry Label="  225Hz" Value="21" />
-		<Entry Label="  250Hz" Value="22" />
-		<Entry Label="  280Hz" Value="23" />
-		<Entry Label="  315Hz" Value="24" />
-		<Entry Label="  355Hz" Value="25" />
-		<Entry Label="  400Hz" Value="26" />
-		<Entry Label="  450Hz" Value="27" />
-		<Entry Label="  500Hz" Value="28" />
-		<Entry Label="  560Hz" Value="29" />
-		<Entry Label="  630Hz" Value="30" />
-		<Entry Label="  700Hz" Value="31" />
-		<Entry Label="  800Hz" Value="32" />
-		<Entry Label="  900Hz" Value="33" />
-		<Entry Label=" 1.0kHz" Value="34" />
-		<Entry Label=" 1.1kHz" Value="35" />
-		<Entry Label=" 1.2kHz" Value="36" />
-		<Entry Label=" 1.4kHz" Value="37" />
-		<Entry Label=" 1.6kHz" Value="38" />
-		<Entry Label=" 1.8kHz" Value="39" />
-		<Entry Label=" 2.0kHz" Value="40" />
-	</Table>
-
-<Table ID="30">
-<Entry Label="  100Hz" Value="14" />
-<Entry Label="  110Hz" Value="15" />
-<Entry Label="  125Hz" Value="16" />
-<Entry Label="  140Hz" Value="17" />
-<Entry Label="  160Hz" Value="18" />
-<Entry Label="  180Hz" Value="19" />
-<Entry Label="  200Hz" Value="20" />
-<Entry Label="  225Hz" Value="21" />
-<Entry Label="  250Hz" Value="22" />
-<Entry Label="  280Hz" Value="23" />
-<Entry Label="  315Hz" Value="24" />
-<Entry Label="  355Hz" Value="25" />
-<Entry Label="  400Hz" Value="26" />
-<Entry Label="  450Hz" Value="27" />
-<Entry Label="  500Hz" Value="28" />
-<Entry Label="  560Hz" Value="29" />
-<Entry Label="  630Hz" Value="30" />
-<Entry Label="  700Hz" Value="31" />
-<Entry Label="  800Hz" Value="32" />
-<Entry Label="  900Hz" Value="33" />
-<Entry Label=" 1.0kHz" Value="34" />
-<Entry Label=" 1.1kHz" Value="35" />
-<Entry Label=" 1.2kHz" Value="36" />
-<Entry Label=" 1.4kHz" Value="37" />
-<Entry Label=" 1.6kHz" Value="38" />
-<Entry Label=" 1.8kHz" Value="39" />
-<Entry Label=" 2.0kHz" Value="40" />
-<Entry Label=" 2.2kHz" Value="41" />
-<Entry Label=" 2.5kHz" Value="42" />
-<Entry Label=" 2.8kHz" Value="43" />
-<Entry Label=" 3.2kHz" Value="44" />
-<Entry Label=" 3.6kHz" Value="45" />
-<Entry Label=" 4.0kHz" Value="46" />
-<Entry Label=" 4.5kHz" Value="47" />
-<Entry Label=" 5.0kHz" Value="48" />
-<Entry Label=" 5.6kHz" Value="49" />
-<Entry Label=" 6.3kHz" Value="50" />
-<Entry Label=" 7.0kHz" Value="51" />
-<Entry Label=" 8.0kHz" Value="52" />
-<Entry Label=" 9.0kHz" Value="53" />
-<Entry Label="10.0kHz" Value="54" />
-</Table>
 
   <ControlChangeMacroList>
+    <Table ID="1">
+      <Entry Label="GM風" Value="2" />
+      <Entry Label="GS風" Value="1" />
+      <Entry Label="XG風" Value="0" />
+    </Table>
     <Folder Name="PerformEdit">
-      <CCM ID="130" Name="PitchBend" Color="#0fa806" Sync="Last">
+      <CCM ID="130" Name="ﾋﾟｯﾁﾍﾞﾝﾄﾞ" Color="#0fa806" Sync="Last">
         <Value Min="-8192" Max="8191" Offset="8192" />
         <Memo>音程を変化させます。</Memo>
         <Data>@PB #VH #VL</Data>
       </CCM>
-      <CCM ID="140" Name="PitchBend Range" Sync="Last">
+      <CCM ID="140" Name="ﾋﾟｯﾁﾍﾞﾝﾄﾞｾﾝｼﾃｨﾋﾞﾃｨ" Sync="Last">
         <Value Default="2" Min="0" Max="24" />
         <Memo>ピッチベンドで変わる音程の最大値を設定します。12で1オクターブです。</Memo>
         <Data>@RPN 00H 00H #VL #NONE</Data>
       </CCM>
-      <CCM ID="11" Name="Expression" Color="#CA0000" Sync="Last">
+      <CCM ID="11" Name="ｴｸｽﾌﾟﾚｯｼｮﾝ" Color="#CA0000" Sync="Last">
         <Value />
         <Memo>パートの音量を設定します。主に演奏中の抑揚表現に使用します。</Memo>
         <Data>@CC 11 #VL</Data>
       </CCM>
-      <CCM ID="74" Name="CutOff" Color="#CA0000" Sync="Last">
-        <Value />
-        <Memo>未使用</Memo>
-        <Data>@CC 74 #VL</Data>
-      </CCM>
-      <CCM ID="64" Name="Hold1">
+      <CCM ID="64" Name="ﾎｰﾙﾄﾞ">
         <Value>
           <Entry Label="Off" Value="0" />
           <Entry Label="On" Value="127" />
@@ -1260,234 +1150,76 @@
       </CCM>
     </Folder>
     <Folder Name="PartEdit">
-      <CCM ID="7" Name="Part Level" Color="#CA0000" Sync="Last">
+      <CCM ID="7" Name="ﾊﾟｰﾄﾚﾍﾞﾙ" Color="#CA0000" Sync="Last">
         <Value Default="100" />
         <Memo>パートの音量バランスを設定します。</Memo>
         <Data>@CC 7 #VL</Data>
       </CCM>
-      <CCM ID="10" Name="Part Panpot" Color="#008080" Sync="Last">
+      <CCM ID="10" Name="ﾊﾟﾝﾎﾟｯﾄ" Color="#008080" Sync="Last">
         <Value Min="-64" Max="63" Offset="64" />
         <Memo>音の定位を設定します。</Memo>
         <Data>@CC 10 #VL</Data>
       </CCM>
     </Folder>
-    <Folder Name="Other">
-      <CCM ID="6" Name="DataEntryMSB">
+	<Folder Name="その他">
+      <CCM ID="6" Name="ﾃﾞｰﾀｴﾝﾄﾘ(MSB)">
         <Value />
         <Memo>データエントリMSBを設定します。</Memo>
         <Data>@CC 6 #VL</Data>
       </CCM>
-      <CCM ID="100" Name="RPN LSB">
+      <CCM ID="100" Name="RPN(LSB)">
         <Value />
         <Memo></Memo>
         <Data>@CC 100 #VL</Data>
       </CCM>
-      <CCM ID="101" Name="RPN MSB">
+      <CCM ID="101" Name="RPN(MSB)">
         <Value />
         <Memo></Memo>
         <Data>@CC 101 #VL</Data>
       </CCM>
-      <CCM ID="121" Name="ResetAllController">
+      <CCM ID="121" Name="ﾘｾｯﾄｵｰﾙｺﾝﾄﾛｰﾗ">
         <Memo></Memo>
         <Data>@CC 121 0</Data>
       </CCM>
-      <CCM ID="123" Name="AllNoteOff">
+	  <CCM ID="123" Name="ｵｰﾙﾉｰﾄｵﾌ">
         <Memo></Memo>
         <Data>@CC 123 0</Data>
       </CCM>
-      <CCM ID="131" Name="131 ﾏｽﾀｰﾎﾞﾘｭｰﾑ" Color="#CC00FF" Sync="Last">
+      <CCM ID="131" Name="ﾏｽﾀｰﾎﾞﾘｭｰﾑ" Color="#CC00FF" Sync="Last">
         <Value Default="127" />
         <Data>@SYSEX F0H 7FH 7FH 04H 01H 00H #VL F7H</Data>
-        <Memo>[GM Master Volume] 全体の音量。</Memo>
-      </CCM>
-      <CCM ID="200" Name="GM System ON">
-        <Data>@SYSEX F0H 7EH 7FH 09H 01H F7H</Data>
-        <Memo>[GM System On] GMの初期化ﾒｯｾｰｼﾞ。</Memo>
-      </CCM>
-      <CCM ID="143" Name="143 XG ｼｽﾃﾑ ｵﾝ" Color="#CC0000">
-        <Data>@SYSEX F0H 43H 10H 4CH 00H 00H 7EH 00H F7H</Data>
-        <Memo>[XG System On] XGの初期化ﾒｯｾｰｼﾞ。</Memo>
-      </CCM>
-      <CCM ID="141" Name="141 GS Reset" Color="#0000FF">
-        <Data>@SYSEX F0H 41H 10H 42H 12H 40H 00H 7FH 00H 41H F7H</Data>
-        <Memo>[GS Reset] GSの初期化ﾒｯｾｰｼﾞ。</Memo>
+        <Memo>全体の音量を設定します。</Memo>
       </CCM>
       <CCM ID="128" Name="Rest" Color="#aaaaaa">
         <Memo>休符です。</Memo>
       </CCM>
+	</Folder>
+    <Folder Name="リセット系">
+      <CCM ID="200" Name="GMｼｽﾃﾑｵﾝ" Color="#BDADCC">
+        <Data>@SYSEX F0H 7EH 7FH 09H 01H F7H</Data>
+        <Memo>GMの初期化メッセージ。\n通常はこちらを使用してください。</Memo>
+      </CCM>
+      <CCM ID="143" Name="XGｼｽﾃﾑｵﾝ" Color="#ADCC51">
+        <Data>@SYSEX F0H 43H 10H 4CH 00H 00H 7EH 00H F7H</Data>
+        <Memo>XGの初期化メッセージ。</Memo>
+      </CCM>
+      <CCM ID="141" Name="GSﾘｾｯﾄ" Color="#CC681C">
+        <Data>@SYSEX F0H 41H 10H 42H 12H 40H 00H 7FH 00H 41H F7H</Data>
+        <Memo>GSの初期化メッセージ。</Memo>
+      </CCM>
     </Folder>
-		<Folder Name="Multi EQ">
-			<CCM ID="273" Name="515-515 Multi EQ" Color="#6600CC">
-			<Data></Data>
-			<Memo>全体に掛かる 5ﾊﾞﾝﾄﾞEQ です。</Memo>
-			</CCM>
-			<CCM ID="515" Name="515 M-EQ EQ Type" Color="#FF3366">
-			<Value Max="4" TableID="20" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 00H #VL F7H</Data>
-			<Memo>Multi EQ のﾌﾟﾘｾｯﾄ。</Memo>
-			</CCM>
-			</Folder>
-			<Folder Name="Multi EQ Parameter">
-			<CCM ID="274" Name="Multi EQ Parameter" Color="#6600CC">
-			<Data></Data>
-			</CCM>
-			<Folder Name="000 Flat">
-			<Memo>EQ が機能していない状態。</Memo>
-			<CCM ID="516" Name="MEQ:P   EQ1 Frequency" Color="#FF3366">
-			<Value Default="12" Min="4" Max="40" TableID="28" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 02H #VL F7H</Data>
-			<Memo>EQ1 の周波数。</Memo>
-			</CCM>
-			<CCM ID="517" Name="MEQ:P   EQ1 Gain" Color="#FF3366">
-			<Value Default="64" Min="52" Max="76" TableID="9" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 01H #VL F7H</Data>
-			<Memo>EQ1 の増減量。
-			64 を基点として増減。</Memo>
-			</CCM>
-			<CCM ID="518" Name="MEQ:P   EQ1 Q" Color="#000000">
-			<Value Default="7" Min="1" Max="120" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 03H #VL F7H</Data>
-			<Memo>EQ1 の増減幅。
-			値が大きくなるほど狭くなる。</Memo>
-			</CCM>
-			<CCM ID="520" Name="MEQ:P   EQ2 Frequency" Color="#FF3366">
-			<Value Default="28" Min="14" Max="54" TableID="30" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 06H #VL F7H</Data>
-			<Memo>EQ2 の周波数。</Memo>
-			</CCM>
-			<CCM ID="521" Name="MEQ:P   EQ2 Gain" Color="#FF3366">
-			<Value Default="64" Min="52" Max="76" TableID="9" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 05H #VL F7H</Data>
-			<Memo>EQ2 の増減量。
-			64 を基点として増減。</Memo>
-			</CCM>
-			<CCM ID="522" Name="MEQ:P   EQ2 Q" Color="#000000">
-			<Value Default="7" Min="1" Max="120" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 07H #VL F7H</Data>
-			<Memo>EQ2 の増減幅。
-			値が大きくなるほど狭くなる。</Memo>
-			</CCM>
-			<CCM ID="523" Name="MEQ:P   EQ3 Frequency" Color="#FF3366">
-			<Value Default="34" Min="14" Max="54" TableID="30" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 0AH #VL F7H</Data>
-			<Memo>EQ3 の周波数。</Memo>
-			</CCM>
-			<CCM ID="524" Name="MEQ:P   EQ3 Gain" Color="#FF3366">
-			<Value Default="64" Min="52" Max="76" TableID="9" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 09H #VL F7H</Data>
-			<Memo>EQ3 の増減量。
-			64 を基点として増減。</Memo>
-			</CCM>
-			<CCM ID="525" Name="MEQ:P   EQ3 Q" Color="#000000">
-			<Value Default="7" Min="1" Max="120" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 0BH #VL F7H</Data>
-			<Memo>EQ3 の増減幅。
-			値が大きくなるほど狭くなる。</Memo>
-			</CCM>
-			<CCM ID="526" Name="MEQ:P   EQ4 Frequency" Color="#FF3366">
-			<Value Default="46" Min="14" Max="54" TableID="30" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 0EH #VL F7H</Data>
-			<Memo>EQ4 の周波数。</Memo>
-			</CCM>
-			<CCM ID="527" Name="MEQ:P   EQ4 Gain" Color="#FF3366">
-			<Value Default="64" Min="52" Max="76" TableID="9" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 0DH #VL F7H</Data>
-			<Memo>EQ4 の増減量。
-			64 を基点として増減。</Memo>
-			</CCM>
-			<CCM ID="528" Name="MEQ:P   EQ4 Q" Color="#000000">
-			<Value Default="7" Min="1" Max="120" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 0FH #VL F7H</Data>
-			<Memo>EQ4 の増減幅。
-			値が大きくなるほど狭くなる。</Memo>
-			</CCM>
-			<CCM ID="529" Name="MEQ:P   EQ5 Frequency" Color="#FF3366">
-			<Value Default="52" Min="28" Max="58" TableID="29" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 12H #VL F7H</Data>
-			<Memo>EQ5 の周波数。</Memo>
-			</CCM>
-			<CCM ID="530" Name="MEQ:P   EQ5 Gain" Color="#FF3366">
-			<Value Default="64" Min="52" Max="76" TableID="9" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 11H #VL F7H</Data>
-			<Memo>EQ5 の増減量。
-			64 を基点として増減。</Memo>
-			</CCM>
-			<CCM ID="531" Name="MEQ:P   EQ5 Q" Color="#000000">
-			<Value Default="7" Min="1" Max="120" />
-			<Data>@SYSEX F0H 43H 10H 4CH 02H 40H 13H #VL F7H</Data>
-			<Memo>EQ5 の増減幅。
-			値が大きくなるほど狭くなる。</Memo>
-			</CCM>
-			</Folder>
-			<Folder Name="001 Jazz">
-			<CCMLink ID="516" Value="8" />
-			<CCMLink ID="517" Value="58" />
-			<CCMLink ID="518" Value="7" />
-			<CCMLink ID="520" Value="16" />
-			<CCMLink ID="521" Value="66" />
-			<CCMLink ID="522" Value="3" />
-			<CCMLink ID="523" Value="33" />
-			<CCMLink ID="524" Value="68" />
-			<CCMLink ID="525" Value="3" />
-			<CCMLink ID="526" Value="44" />
-			<CCMLink ID="527" Value="60" />
-			<CCMLink ID="528" Value="5" />
-			<CCMLink ID="529" Value="50" />
-			<CCMLink ID="530" Value="58" />
-			<CCMLink ID="531" Value="7" />
-			</Folder>
-			<Folder Name="002 Pops">
-			<CCMLink ID="516" Value="16" />
-			<CCMLink ID="517" Value="68" />
-			<CCMLink ID="518" Value="7" />
-			<CCMLink ID="520" Value="24" />
-			<CCMLink ID="521" Value="60" />
-			<CCMLink ID="522" Value="20" />
-			<CCMLink ID="523" Value="34" />
-			<CCMLink ID="524" Value="67" />
-			<CCMLink ID="525" Value="7" />
-			<CCMLink ID="526" Value="40" />
-			<CCMLink ID="527" Value="60" />
-			<CCMLink ID="528" Value="20" />
-			<CCMLink ID="529" Value="48" />
-			<CCMLink ID="530" Value="70" />
-			<CCMLink ID="531" Value="7" />
-			</Folder>
-			<Folder Name="003 Rock">
-			<CCMLink ID="516" Value="16" />
-			<CCMLink ID="517" Value="71" />
-			<CCMLink ID="518" Value="7" />
-			<CCMLink ID="520" Value="20" />
-			<CCMLink ID="521" Value="68" />
-			<CCMLink ID="522" Value="7" />
-			<CCMLink ID="523" Value="36" />
-			<CCMLink ID="524" Value="60" />
-			<CCMLink ID="525" Value="5" />
-			<CCMLink ID="526" Value="41" />
-			<CCMLink ID="527" Value="68" />
-			<CCMLink ID="528" Value="10" />
-			<CCMLink ID="529" Value="50" />
-			<CCMLink ID="530" Value="66" />
-			<CCMLink ID="531" Value="7" />
-			</Folder>
-			<Folder Name="004 Concert">
-			<CCMLink ID="516" Value="12" />
-			<CCMLink ID="517" Value="67" />
-			<CCMLink ID="518" Value="7" />
-			<CCMLink ID="520" Value="24" />
-			<CCMLink ID="521" Value="68" />
-			<CCMLink ID="522" Value="7" />
-			<CCMLink ID="523" Value="34" />
-			<CCMLink ID="524" Value="64" />
-			<CCMLink ID="525" Value="5" />
-			<CCMLink ID="526" Value="50" />
-			<CCMLink ID="527" Value="66" />
-			<CCMLink ID="528" Value="7" />
-			<CCMLink ID="529" Value="52" />
-			<CCMLink ID="530" Value="61" />
-			<CCMLink ID="531" Value="7" />
-			</Folder>
-		</Folder>
+    <Folder Name="独自エクスクルーシブ">
+      <CCM ID="300" Name="MMXﾕﾆｯﾄｱｻｲﾝ">
+        <Value Min="0" Max="4"/>
+        <Data>@SYSEX F0H 43H 10H 4CH 08H #CH 6FH #VL F7H</Data>
+        <Memo>Multiモード時のチャネルとユニットの対応を設定します。\nこの設定はリセット系エクスクルーシブにより初期化されます。\nMultiモード以外のときには影響を受けません。</Memo>
+      </CCM>
+      <CCM ID="301" Name="ｶﾗｰﾃｰﾏ" Color="#CC0000">
+        <Value Min="0" Max="2" TableID="1" />
+        <Data>@SYSEX F0H 43H 10H 4CH 01H 06H 00H #VL F7H</Data>
+        <Memo>画面の配色を一時的に変更します。\n動作に違いはありません。</Memo>
+      </CCM>
+    </Folder>
   </ControlChangeMacroList>
   <TemplateList>
     <Template ID="0" Name="トラック初期化">
@@ -1497,6 +1229,7 @@
       <PC Mode="Auto" />
       <CC ID="130" Value="0" />
       <CC ID="11" Value="127" />
+      <CC ID="300" Value="0" />
     </Template>
   </TemplateList>
   <DefaultData>

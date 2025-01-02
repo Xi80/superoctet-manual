@@ -2,25 +2,14 @@
 title: はじめに
 ---
 
-# はじめに
-
-!!! danger inline end "注意事項"
-
-    本機器は開発段階であり、今後ハードウェア・ソフトウェア双方が大幅な変更されることがあります
-
-    現在、GM Level1準拠のデータ再生はできますが多くの機能が未実装です
-
-![ロゴ](logo.png)
-
-![すーぱーおくてっと！](top.jpg)
-
-<button type="button" class="btn btn-danger" style="display:block;margin:auto" onclick="window.location.href='https://feng-elec.booth.pm/items/5573638'"><span style="font-size:40px;">Boothで購入する</span></button>
-
-本文書では「すーぱーおくてっと！」(以下本音源の)使用方法について記述します。
+<div align="center" margin="10px">
+<img src="logo.png" alt="image">
+<img src="top.jpg" alt="image">
+</div>
 
 ## 「すーぱーおくてっと！」とは？
 
-MiniDVテープサイズ(W×H×D=66x48x12[mm])のMIDI音源です。
+MiniDVテープサイズ(W×H×D=66x48x10[mm])のMIDI音源です。
 
 音源部には8オペレータのソフトウェアFM音源を使用しており、最大32和音(メロディー24音/リズム8音)を鳴らすことができます。
 
@@ -44,19 +33,16 @@ MiniDVテープサイズ(W×H×D=66x48x12[mm])のMIDI音源です。
 
 ## 動作確認環境
 
-- Windows 7/8.1/10/11
-    - Windows XP以前では動作しません
+- Windows 10/11
+    - Windows 8.1以前では動作を保証しません
 
-- Ubuntu 22.04
+- Ubuntu 22.04/24.04
 
-- MacOS X 10.5以降
+- MacOS X 10.4以降
     - PowerPC/Intel両方で動作確認
+    - Apple Siliconは所有していないため動作未確認
 
 ## 仕様
-
-!!! warning inline end "情報"
-
-    今後仕様変更の可能性があります、ご注意ください。
 
 |仕様項目      |詳細                                                            |
 |--------------|----------------------------------------------------------------|
@@ -64,13 +50,11 @@ MiniDVテープサイズ(W×H×D=66x48x12[mm])のMIDI音源です。
 |プリセット音色|メロディ128種類×3バンク(重複あり)<br>ドラムセット1種類<br>GM配列|
 |パート数      |16パート                                                        |
 |最大同時発音数|メロディー24音<br>リズム8音                                     |
-|エフェクト    |5バンド全体EQ<br>DAC内蔵フィルタブロックによる                  |
 |コネクタ      |USB-C<br>3.5mmステレオジャック                                  |
 |出力仕様      |ステレオ16bit/32kHz                                             |
 |ディスプレイ  |1.3インチ TFT液晶                                               |
 |電源          |USBバスパワー駆動                                               |
-|サイズ(W×H×D) |66x48x12[mm]                                                    |
-|本体重量      |To Be Measured                                                  |
+|サイズ(W×H×D) |66x48x10[mm]                                                    |
 |消費電流      |定常時0.75W(5V150mA)/ユニット                                   |
 
 
