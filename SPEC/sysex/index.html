@@ -176,7 +176,7 @@
                 
                 <li class="third-level"><a href="#_3">リセット系エクスクルーシブ</a></li>
                 <li class="third-level"><a href="#_4">画面表示系エクスクルーシブ</a></li>
-                <li class="third-level"><a href="#_5">イコライザ設定</a></li>
+                <li class="third-level"><a href="#_5">パート設定系エクスクルーシブ</a></li>
                 <li class="third-level"><a href="#_6">ユーザー音色転送</a></li>
                 <li class="third-level"><a href="#_7">その他</a></li>
     </ul>
@@ -317,478 +317,48 @@
 <p class="admonition-title">情報</p>
 <p>XGの仕様書には<code>DISPLAY BITMAP</code>は<code>07 vh 00</code>となっており、縦方向(v:0~7)・横方向(h:0~F)への拡張が可能ですが本音源では実装していません。</p>
 </div>
-<h3 id="_5">イコライザ設定</h3>
-<p>本音源はXG音源のMulti EQに該当する機能を持っています。<code>shape</code>のパラメータが無いのを除けば同一のデータを受信します。</p>
-<div class="admonition warning inline end">
-<p class="admonition-title">注意</p>
-<p>Multi EQの実装にはDACのFIRフィルタを使用しています。</p>
-<p>プリセット以外のパラメータ設定には時間がかかります。</p>
-<p>また現在任意のパラメータのセットは不安定なため推奨しません。</p>
-</div>
-<p>ここではXGパラメータチェンジのアドレスとデータの意味のみ示します。</p>
+<h3 id="_5">パート設定系エクスクルーシブ</h3>
+<p>ドラムパートの設定とMultiモード時のユニットアサインを設定できます。
+ドラムパートはXG/GS両方のエクスクルーシブを使用できます。</p>
 <table>
 <thead>
 <tr>
-<th>アドレス<br>(H)</th>
-<th>アドレス<br>(M)</th>
-<th>アドレス<br>(L)</th>
-<th>サイズ<br>(16進数)</th>
-<th>データ範囲<br>(16進数)</th>
-<th>パラメータ</th>
+<th>名称</th>
+<th>データ(16進数)</th>
 <th>備考</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>02</code></td>
-<td><code>40</code></td>
-<td><code>00</code></td>
-<td><code>01</code></td>
-<td><code>00-04</code></td>
-<td><code>EQ type</code></td>
-<td>0:FLAT<br>1:JAZZ<br>2:POPS<br>3:ROCK<br>4:CONCERT</td>
+<td><code>PART MODE(XG)</code></td>
+<td><code>F0 43 10 4C 08 nn 07 mm F7</code></td>
+<td><code>nn</code>:パート番号(<code>00</code>~<code>0F</code>)、<code>mm</code>:<code>0</code>がメロディーパート、<code>0</code>以外でリズムパート</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td><code>01</code></td>
-<td><code>01</code></td>
-<td><code>34-4C</code></td>
-<td><code>EQ gain1</code></td>
-<td>-12 - +12[dB]</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>02</code></td>
-<td><code>01</code></td>
-<td><code>04-28</code></td>
-<td><code>EQ frequency1</code></td>
-<td>32 - 2000[Hz]</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>03</code></td>
-<td><code>01</code></td>
-<td><code>01-78</code></td>
-<td><code>EQ Q1</code></td>
-<td>0.1 - 12</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>04</code></td>
-<td><code>01</code></td>
-<td><code>not used</code></td>
-<td><code>not used</code></td>
-<td>未使用</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>05</code></td>
-<td><code>01</code></td>
-<td><code>34-4C</code></td>
-<td><code>EQ gain2</code></td>
-<td>-12 - +12[dB]</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>06</code></td>
-<td><code>01</code></td>
-<td><code>04-28</code></td>
-<td><code>EQ frequency2</code></td>
-<td>32 - 2000[Hz]</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>07</code></td>
-<td><code>01</code></td>
-<td><code>01-78</code></td>
-<td><code>EQ Q2</code></td>
-<td>0.1 - 12</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>08</code></td>
-<td><code>01</code></td>
-<td><code>not used</code></td>
-<td><code>not used</code></td>
-<td>未使用</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>09</code></td>
-<td><code>01</code></td>
-<td><code>34-4C</code></td>
-<td><code>EQ gain3</code></td>
-<td>-12 - +12[dB]</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>0A</code></td>
-<td><code>01</code></td>
-<td><code>04-28</code></td>
-<td><code>EQ frequency3</code></td>
-<td>32 - 2000[Hz]</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>0B</code></td>
-<td><code>01</code></td>
-<td><code>01-78</code></td>
-<td><code>EQ Q3</code></td>
-<td>0.1 - 12</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>0C</code></td>
-<td><code>01</code></td>
-<td><code>not used</code></td>
-<td><code>not used</code></td>
-<td>未使用</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>0D</code></td>
-<td><code>01</code></td>
-<td><code>34-4C</code></td>
-<td><code>EQ gain4</code></td>
-<td>-12 - +12[dB]</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>0E</code></td>
-<td><code>01</code></td>
-<td><code>04-28</code></td>
-<td><code>EQ frequency4</code></td>
-<td>32 - 2000[Hz]</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>0F</code></td>
-<td><code>01</code></td>
-<td><code>01-78</code></td>
-<td><code>EQ Q4</code></td>
-<td>0.1 - 12</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>10</code></td>
-<td><code>01</code></td>
-<td><code>not used</code></td>
-<td><code>not used</code></td>
-<td>未使用</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>11</code></td>
-<td><code>01</code></td>
-<td><code>34-4C</code></td>
-<td><code>EQ gain5</code></td>
-<td>-12 - +12[dB]</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>12</code></td>
-<td><code>01</code></td>
-<td><code>04-28</code></td>
-<td><code>EQ frequency5</code></td>
-<td>32 - 2000[Hz]</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>13</code></td>
-<td><code>01</code></td>
-<td><code>01-78</code></td>
-<td><code>EQ Q5</code></td>
-<td>0.1 - 12</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><code>14</code></td>
-<td><code>01</code></td>
-<td><code>not used</code></td>
-<td><code>not used</code></td>
-<td>未使用</td>
+<td><code>PART MODE(GS)</code></td>
+<td><code>F0 41 10 42 12 40 nn 15 mm sum F7</code></td>
+<td><code>nn</code>:パート番号(<code>01</code>~<code>09</code>,<code>00</code>,<code>0A</code>~<code>0F)、</code>mm<code>:</code>0<code>がメロディーパート、</code>0`以外でリズムパート</td>
 </tr>
 </tbody>
 </table>
-<p>ここで<code>EQ frequency</code>のテーブルを示します。</p>
+<p>Multiモード時のユニットアサイン設定は<code>MMX PART ASSIGN(Address:08 xx 6F)</code>で行います。
+なお、接続されているユニット以上の割り当ては無効となり、受信しません。</p>
 <table>
 <thead>
 <tr>
-<th>Data(10進数)</th>
-<th>Value(10進数)</th>
+<th>名称</th>
+<th>データ(16進数)</th>
+<th>備考</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0</td>
-<td>THRU(20)</td>
-</tr>
-<tr>
-<td>1</td>
-<td>22</td>
-</tr>
-<tr>
-<td>2</td>
-<td>25</td>
-</tr>
-<tr>
-<td>3</td>
-<td>28</td>
-</tr>
-<tr>
-<td>4</td>
-<td>32</td>
-</tr>
-<tr>
-<td>5</td>
-<td>36</td>
-</tr>
-<tr>
-<td>6</td>
-<td>40</td>
-</tr>
-<tr>
-<td>7</td>
-<td>45</td>
-</tr>
-<tr>
-<td>8</td>
-<td>50</td>
-</tr>
-<tr>
-<td>9</td>
-<td>56</td>
-</tr>
-<tr>
-<td>10</td>
-<td>63</td>
-</tr>
-<tr>
-<td>11</td>
-<td>70</td>
-</tr>
-<tr>
-<td>12</td>
-<td>80</td>
-</tr>
-<tr>
-<td>13</td>
-<td>90</td>
-</tr>
-<tr>
-<td>14</td>
-<td>100</td>
-</tr>
-<tr>
-<td>15</td>
-<td>110</td>
-</tr>
-<tr>
-<td>16</td>
-<td>125</td>
-</tr>
-<tr>
-<td>17</td>
-<td>140</td>
-</tr>
-<tr>
-<td>18</td>
-<td>160</td>
-</tr>
-<tr>
-<td>19</td>
-<td>180</td>
-</tr>
-<tr>
-<td>20</td>
-<td>200</td>
-</tr>
-<tr>
-<td>21</td>
-<td>225</td>
-</tr>
-<tr>
-<td>22</td>
-<td>250</td>
-</tr>
-<tr>
-<td>23</td>
-<td>280</td>
-</tr>
-<tr>
-<td>24</td>
-<td>315</td>
-</tr>
-<tr>
-<td>25</td>
-<td>355</td>
-</tr>
-<tr>
-<td>26</td>
-<td>400</td>
-</tr>
-<tr>
-<td>27</td>
-<td>450</td>
-</tr>
-<tr>
-<td>28</td>
-<td>500</td>
-</tr>
-<tr>
-<td>29</td>
-<td>560</td>
-</tr>
-<tr>
-<td>30</td>
-<td>630</td>
-</tr>
-<tr>
-<td>31</td>
-<td>700</td>
-</tr>
-<tr>
-<td>32</td>
-<td>800</td>
-</tr>
-<tr>
-<td>33</td>
-<td>900</td>
-</tr>
-<tr>
-<td>34</td>
-<td>1.0k</td>
-</tr>
-<tr>
-<td>35</td>
-<td>1.1k</td>
-</tr>
-<tr>
-<td>36</td>
-<td>1.2k</td>
-</tr>
-<tr>
-<td>37</td>
-<td>1.4k</td>
-</tr>
-<tr>
-<td>38</td>
-<td>1.6k</td>
-</tr>
-<tr>
-<td>39</td>
-<td>1.8k</td>
-</tr>
-<tr>
-<td>40</td>
-<td>2.0k</td>
-</tr>
-<tr>
-<td>41</td>
-<td>2.2k</td>
-</tr>
-<tr>
-<td>42</td>
-<td>2.5k</td>
-</tr>
-<tr>
-<td>43</td>
-<td>2.8k</td>
-</tr>
-<tr>
-<td>44</td>
-<td>3.2k</td>
-</tr>
-<tr>
-<td>45</td>
-<td>3.6k</td>
-</tr>
-<tr>
-<td>46</td>
-<td>4.0k</td>
-</tr>
-<tr>
-<td>47</td>
-<td>4.5k</td>
-</tr>
-<tr>
-<td>48</td>
-<td>5.0k</td>
-</tr>
-<tr>
-<td>49</td>
-<td>5.6k</td>
-</tr>
-<tr>
-<td>50</td>
-<td>6.3k</td>
-</tr>
-<tr>
-<td>51</td>
-<td>7.0k</td>
-</tr>
-<tr>
-<td>52</td>
-<td>8.0k</td>
-</tr>
-<tr>
-<td>53</td>
-<td>9.0k</td>
-</tr>
-<tr>
-<td>54</td>
-<td>10.0k</td>
-</tr>
-<tr>
-<td>55</td>
-<td>11.0k</td>
-</tr>
-<tr>
-<td>56</td>
-<td>12.0k</td>
-</tr>
-<tr>
-<td>57</td>
-<td>14.0k</td>
-</tr>
-<tr>
-<td>58</td>
-<td>16.0k</td>
-</tr>
-<tr>
-<td>59</td>
-<td>18.0k</td>
-</tr>
-<tr>
-<td>60</td>
-<td>THRU(20.0k)</td>
+<td><code>MMX PART ASSIGN</code></td>
+<td><code>F0 43 10 4C 08 nn 6F mm F7</code></td>
+<td><code>nn</code>:パート番号(<code>00</code>~<code>0F</code>)、<code>mm</code>:<code>0</code>がマスタ、<code>1</code>~<code>(スレーブの接続数)</code>で該当するスレーブ番号に割り当てる</td>
 </tr>
 </tbody>
 </table>
-<div class="admonition note inline end">
-<p class="admonition-title">情報</p>
-<p>本音源の現在のサンプリング周波数は32kHzですので59,60は違いがないものと思われます。</p>
-</div>
 <h3 id="_6">ユーザー音色転送</h3>
 <div class="admonition warning inline end">
 <p class="admonition-title">注意</p>
