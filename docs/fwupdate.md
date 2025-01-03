@@ -11,16 +11,6 @@ title: ファームウェア更新
 
 [ダウンロード](download.md)から最新のファームウェアをダウンロードし、次の手順に従ってアップデートを行ってください。
 
-!!! note inline end "情報"
-
-    現在導入されているファームウェアのバージョンはメニューの「Info」から確認できます
-    
-    - PP Ver
-        - 周辺制御プロセッサのファームウェアバージョン
-    - TG Ver
-        - 波形生成プロセッサのファームウェアバージョン
-
-
 ## 波形生成プロセッサのファームウェア更新方法
 
 ### モード切り替え
@@ -49,6 +39,7 @@ title: ファームウェア更新
 
 - Windows + kflash_gui
     - GUIで書き込みを行う
+    - 環境によってはうまくいかないため非推奨
 
 いずれも書き込むファームウェアは`tg.bin`とします。
 
@@ -102,7 +93,7 @@ $ sudo adduser $USER dialout
 最後に書き込みを行います。
 
 ```bash
-$ kflash -b 1000000 -t tg.bin 
+$ kflash -b 1000000 tg.bin 
 [INFO] COM Port Auto Detected, Selected  /dev/ttyUSB0 
 [INFO] Default baudrate is 115200 , later it may be changed to the value you set. 
 [INFO] Trying to Enter the ISP Mode... 
@@ -123,51 +114,6 @@ Downloading ISP: |==============================================================
 Programming BIN: |==============================================================|  100.0% 47kiB/s
 [INFO] Rebooting... 
 [INFO] The ISP stub tells us the k210 is rebooting ... 
---- forcing DTR inactive
---- forcing RTS inactive
---- Miniterm on /dev/ttyUSB0  115200,8,N,1 ---
---- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
-Debug output initialized.
-DMAC initialized.
-PLIC initialized.
-Interrupt enabled.
-FPIOA initialized.
-I2S initialized.
-UART initialized.
-Initialized all peripherals.
-
-================================================
-FM Operator Type-X for K210(RV64GC) Firmware
-        Firmware Version       :1.3.1
-Built at Mar 20 2024 02:19:07
-        Target hardware version:4
-        Model Name             :FM_OPX  
-        Fs                     :32000Hz
-        Audio buffer length    :256Samples
-        Maximum Polyphony      :32
-                               :24(melody)
-                               :8(rhythm)
-================================================
-
-License Information
-
-FM Operator Type X
-        Copyright (C) feng-elec - All Rights Reserved
-        Unauthorized copying of this file,via any medium is strictly prohibited
-        Proprietary and confidential
-        Written by Itsuki Hashimoto <System32@live.jp>, 2024/01/07
-
-Kendryte K210 standalone SDK
-        Copyright 2018 Canaan Inc.
-        Licensed under the Apache License, Version 2.0 (the "License");
-                http://www.apache.org/licenses/LICENSE-2.0
-
-This firmware partially contains the code for the following license:
-
-FM-tone-generator
-        Copyright (c) 2015-2023 Yasuo Kuwahara
-        MIT License:https://opensource.org/license/mit/
-
 ```
 
 引数の意味は次のとおりです。
@@ -179,34 +125,6 @@ FM-tone-generator
 | `tg.bin`     | 書き込むファームウェア                                                                    | 
 
 起動後のメッセージが表示されたら書き込みは完了です。`Ctrl+]`でシリアルコンソールを終了します。
-
-### Windows + kflash_gui(おすすめ)
-
-次にGUIから書き込みが可能な`kflash_gui`による方法を説明します。
-
-こちらはインストール不要で書き込めるのでWindows環境の方にはお勧めです。
-
-まず、[GitHubのReleases](https://github.com/sipeed/kflash_gui/releases)から`kflash_gui`をダウンロードします。
-
-![GitHubのReleases](img/kflash_gui_dl.png)
-
-ダウンロードしたzipファイルを適当な場所に展開し、`kflash_gui.exe`を実行します。
-
-![kflashを起動した画面](img/kflash_gui_main.png)
-
-赤枠で囲っている項目を設定します。
-
-| 引数         | 意味                                                                                      | 
-| ----------   | ----------------------------------------------------------------------------------------- | 
-| Select File  | 書き込むファームウェア                                                                    | 
-| Port         | COMポートを指定、環境によって異なります。<br>表示名はCH340Kになっています                 | 
-| Baudrate     | ボーレートを1Mbps(=1,000,000bps)に設定<br>初期値では速すぎるため変更、1Mbpsが実用上の上限 | 
-
-設定ができたら`Download`を押して書き込みを開始します。
-
-次のような画面が表示されたら書き込みは成功です。
-
-![書き込み完了](img/kflash_gui_ok.png)
 
 ### 書き込みが完了したら
 
