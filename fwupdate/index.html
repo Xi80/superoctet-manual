@@ -177,8 +177,6 @@
                 
             <li class="second-level"><a href="#ubuntu-kflash">Ubuntu + kflash</a></li>
                 
-            <li class="second-level"><a href="#windows-kflash_gui">Windows + kflash_gui(おすすめ)</a></li>
-                
             <li class="second-level"><a href="#_4">書き込みが完了したら</a></li>
                 
         <li class="first-level "><a href="#_5">周辺制御プロセッサのファームウェア更新方法</a></li>
@@ -195,20 +193,6 @@
 <p>本音源は波形生成プロセッサ(Kendryte K210)と周辺制御プロセッサ(RP2040)の二つのマイコンで構成されています。
 そのため、本音源のファームウェアを更新するにはそれぞれに適切なファームウェアを書き込む必要があります。</p>
 <p><a href="../download/">ダウンロード</a>から最新のファームウェアをダウンロードし、次の手順に従ってアップデートを行ってください。</p>
-<div class="admonition note inline end">
-<p class="admonition-title">情報</p>
-<p>現在導入されているファームウェアのバージョンはメニューの「Info」から確認できます</p>
-<ul>
-<li>PP Ver<ul>
-<li>周辺制御プロセッサのファームウェアバージョン</li>
-</ul>
-</li>
-<li>TG Ver<ul>
-<li>波形生成プロセッサのファームウェアバージョン</li>
-</ul>
-</li>
-</ul>
-</div>
 <h2 id="_2">波形生成プロセッサのファームウェア更新方法</h2>
 <h3 id="_3">モード切り替え</h3>
 <p>まず、波形生成プロセッサのファームウェアを更新するためにモードを切り替えます。</p>
@@ -233,6 +217,7 @@
 <p>Windows + kflash_gui</p>
 <ul>
 <li>GUIで書き込みを行う</li>
+<li>環境によってはうまくいかないため非推奨</li>
 </ul>
 </li>
 </ul>
@@ -275,7 +260,7 @@ kflash: error: the following arguments are required: firmware
 <p>設定後は設定を反映させるために<strong>必ずPCを再起動してください</strong>。</p>
 </div>
 <p>最後に書き込みを行います。</p>
-<pre><code class="language-bash">$ kflash -b 1000000 -t tg.bin 
+<pre><code class="language-bash">$ kflash -b 1000000 tg.bin 
 [INFO] COM Port Auto Detected, Selected  /dev/ttyUSB0 
 [INFO] Default baudrate is 115200 , later it may be changed to the value you set. 
 [INFO] Trying to Enter the ISP Mode... 
@@ -296,51 +281,6 @@ Downloading ISP: |==============================================================
 Programming BIN: |==============================================================|  100.0% 47kiB/s
 [INFO] Rebooting... 
 [INFO] The ISP stub tells us the k210 is rebooting ... 
---- forcing DTR inactive
---- forcing RTS inactive
---- Miniterm on /dev/ttyUSB0  115200,8,N,1 ---
---- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
-Debug output initialized.
-DMAC initialized.
-PLIC initialized.
-Interrupt enabled.
-FPIOA initialized.
-I2S initialized.
-UART initialized.
-Initialized all peripherals.
-
-================================================
-FM Operator Type-X for K210(RV64GC) Firmware
-        Firmware Version       :1.3.1
-Built at Mar 20 2024 02:19:07
-        Target hardware version:4
-        Model Name             :FM_OPX  
-        Fs                     :32000Hz
-        Audio buffer length    :256Samples
-        Maximum Polyphony      :32
-                               :24(melody)
-                               :8(rhythm)
-================================================
-
-License Information
-
-FM Operator Type X
-        Copyright (C) feng-elec - All Rights Reserved
-        Unauthorized copying of this file,via any medium is strictly prohibited
-        Proprietary and confidential
-        Written by Itsuki Hashimoto &lt;System32@live.jp&gt;, 2024/01/07
-
-Kendryte K210 standalone SDK
-        Copyright 2018 Canaan Inc.
-        Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
-                http://www.apache.org/licenses/LICENSE-2.0
-
-This firmware partially contains the code for the following license:
-
-FM-tone-generator
-        Copyright (c) 2015-2023 Yasuo Kuwahara
-        MIT License:https://opensource.org/license/mit/
-
 </code></pre>
 <p>引数の意味は次のとおりです。</p>
 <table>
@@ -366,39 +306,6 @@ FM-tone-generator
 </tbody>
 </table>
 <p>起動後のメッセージが表示されたら書き込みは完了です。<code>Ctrl+]</code>でシリアルコンソールを終了します。</p>
-<h3 id="windows-kflash_gui">Windows + kflash_gui(おすすめ)</h3>
-<p>次にGUIから書き込みが可能な<code>kflash_gui</code>による方法を説明します。</p>
-<p>こちらはインストール不要で書き込めるのでWindows環境の方にはお勧めです。</p>
-<p>まず、<a href="https://github.com/sipeed/kflash_gui/releases">GitHubのReleases</a>から<code>kflash_gui</code>をダウンロードします。</p>
-<p><img alt="GitHubのReleases" src="../img/kflash_gui_dl.png" /></p>
-<p>ダウンロードしたzipファイルを適当な場所に展開し、<code>kflash_gui.exe</code>を実行します。</p>
-<p><img alt="kflashを起動した画面" src="../img/kflash_gui_main.png" /></p>
-<p>赤枠で囲っている項目を設定します。</p>
-<table>
-<thead>
-<tr>
-<th>引数</th>
-<th>意味</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Select File</td>
-<td>書き込むファームウェア</td>
-</tr>
-<tr>
-<td>Port</td>
-<td>COMポートを指定、環境によって異なります。<br>表示名はCH340Kになっています</td>
-</tr>
-<tr>
-<td>Baudrate</td>
-<td>ボーレートを1Mbps(=1,000,000bps)に設定<br>初期値では速すぎるため変更、1Mbpsが実用上の上限</td>
-</tr>
-</tbody>
-</table>
-<p>設定ができたら<code>Download</code>を押して書き込みを開始します。</p>
-<p>次のような画面が表示されたら書き込みは成功です。</p>
-<p><img alt="書き込み完了" src="../img/kflash_gui_ok.png" /></p>
 <h3 id="_4">書き込みが完了したら</h3>
 <p>忘れずにスイッチを<strong>USBケーブルを抜いてから</strong>もとの位置に戻してください。</p>
 <h2 id="_5">周辺制御プロセッサのファームウェア更新方法</h2>
