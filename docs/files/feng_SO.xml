@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="Shift_JIS"?>
-<ModuleData Name="すーぱーおくてっと！" Folder="" Priority="1" FileCreator="Luna Tsukinashi(feng)" FileVersion="1.10" WebSite="https://feng-elec.com">
-  <RhythmTrackDefault Gate="1" />
-  <ExclusiveEventDefault Data="F0H 43H 10H 4CH F7H" />
-  <InstrumentList>
+<ModuleData Name="すーぱーおくてっと！" Folder="" Priority="1" FileCreator="Luna Tsukinashi(feng)"
+	FileVersion="1.15" WebSite="https://feng-elec.com">
+	<RhythmTrackDefault Gate="1" />
+	<ExclusiveEventDefault Data="F0H 43H 10H 4CH F7H" />
+	<InstrumentList>
 		<Map Name="001-008 ﾋﾟｱﾉ">
 			<PC Name="GrandPno" PC="1">
 				<Bank Name="GrandPno(0.7)" LSB="0" MSB="0" />
@@ -677,635 +678,686 @@
 		</Map>
 		<Map Name="ﾕｰｻﾞｰ音色">
 			<PC Name="User 001" PC="1">
-				<Bank Name="User 001" LSB="0" MSB="98"/>
+				<Bank Name="User 001" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 002" PC="2">
-				<Bank Name="User 002" LSB="0" MSB="98"/>
+				<Bank Name="User 002" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 003" PC="3">
-				<Bank Name="User 003" LSB="0" MSB="98"/>
+				<Bank Name="User 003" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 004" PC="4">
-				<Bank Name="User 004" LSB="0" MSB="98"/>
+				<Bank Name="User 004" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 005" PC="5">
-				<Bank Name="User 005" LSB="0" MSB="98"/>
+				<Bank Name="User 005" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 006" PC="6">
-				<Bank Name="User 006" LSB="0" MSB="98"/>
+				<Bank Name="User 006" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 007" PC="7">
-				<Bank Name="User 007" LSB="0" MSB="98"/>
+				<Bank Name="User 007" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 008" PC="8">
-				<Bank Name="User 008" LSB="0" MSB="98"/>
+				<Bank Name="User 008" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 009" PC="9">
-				<Bank Name="User 009" LSB="0" MSB="98"/>
+				<Bank Name="User 009" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 010" PC="10">
-				<Bank Name="User 010" LSB="0" MSB="98"/>
+				<Bank Name="User 010" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 011" PC="11">
-				<Bank Name="User 011" LSB="0" MSB="98"/>
+				<Bank Name="User 011" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 012" PC="12">
-				<Bank Name="User 012" LSB="0" MSB="98"/>
+				<Bank Name="User 012" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 013" PC="13">
-				<Bank Name="User 013" LSB="0" MSB="98"/>
+				<Bank Name="User 013" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 014" PC="14">
-				<Bank Name="User 014" LSB="0" MSB="98"/>
+				<Bank Name="User 014" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 015" PC="15">
-				<Bank Name="User 015" LSB="0" MSB="98"/>
+				<Bank Name="User 015" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 016" PC="16">
-				<Bank Name="User 016" LSB="0" MSB="98"/>
+				<Bank Name="User 016" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 017" PC="17">
-				<Bank Name="User 017" LSB="0" MSB="98"/>
+				<Bank Name="User 017" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 018" PC="18">
-				<Bank Name="User 018" LSB="0" MSB="98"/>
+				<Bank Name="User 018" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 019" PC="19">
-				<Bank Name="User 019" LSB="0" MSB="98"/>
+				<Bank Name="User 019" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 020" PC="20">
-				<Bank Name="User 020" LSB="0" MSB="98"/>
+				<Bank Name="User 020" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 021" PC="21">
-				<Bank Name="User 021" LSB="0" MSB="98"/>
+				<Bank Name="User 021" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 022" PC="22">
-				<Bank Name="User 022" LSB="0" MSB="98"/>
+				<Bank Name="User 022" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 023" PC="23">
-				<Bank Name="User 023" LSB="0" MSB="98"/>
+				<Bank Name="User 023" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 024" PC="24">
-				<Bank Name="User 024" LSB="0" MSB="98"/>
+				<Bank Name="User 024" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 025" PC="25">
-				<Bank Name="User 025" LSB="0" MSB="98"/>
+				<Bank Name="User 025" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 026" PC="26">
-				<Bank Name="User 026" LSB="0" MSB="98"/>
+				<Bank Name="User 026" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 027" PC="27">
-				<Bank Name="User 027" LSB="0" MSB="98"/>
+				<Bank Name="User 027" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 028" PC="28">
-				<Bank Name="User 028" LSB="0" MSB="98"/>
+				<Bank Name="User 028" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 029" PC="29">
-				<Bank Name="User 029" LSB="0" MSB="98"/>
+				<Bank Name="User 029" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 030" PC="30">
-				<Bank Name="User 030" LSB="0" MSB="98"/>
+				<Bank Name="User 030" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 031" PC="31">
-				<Bank Name="User 031" LSB="0" MSB="98"/>
+				<Bank Name="User 031" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 032" PC="32">
-				<Bank Name="User 032" LSB="0" MSB="98"/>
+				<Bank Name="User 032" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 033" PC="33">
-				<Bank Name="User 033" LSB="0" MSB="98"/>
+				<Bank Name="User 033" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 034" PC="34">
-				<Bank Name="User 034" LSB="0" MSB="98"/>
+				<Bank Name="User 034" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 035" PC="35">
-				<Bank Name="User 035" LSB="0" MSB="98"/>
+				<Bank Name="User 035" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 036" PC="36">
-				<Bank Name="User 036" LSB="0" MSB="98"/>
+				<Bank Name="User 036" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 037" PC="37">
-				<Bank Name="User 037" LSB="0" MSB="98"/>
+				<Bank Name="User 037" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 038" PC="38">
-				<Bank Name="User 038" LSB="0" MSB="98"/>
+				<Bank Name="User 038" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 039" PC="39">
-				<Bank Name="User 039" LSB="0" MSB="98"/>
+				<Bank Name="User 039" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 040" PC="40">
-				<Bank Name="User 040" LSB="0" MSB="98"/>
+				<Bank Name="User 040" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 041" PC="41">
-				<Bank Name="User 041" LSB="0" MSB="98"/>
+				<Bank Name="User 041" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 042" PC="42">
-				<Bank Name="User 042" LSB="0" MSB="98"/>
+				<Bank Name="User 042" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 043" PC="43">
-				<Bank Name="User 043" LSB="0" MSB="98"/>
+				<Bank Name="User 043" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 044" PC="44">
-				<Bank Name="User 044" LSB="0" MSB="98"/>
+				<Bank Name="User 044" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 045" PC="45">
-				<Bank Name="User 045" LSB="0" MSB="98"/>
+				<Bank Name="User 045" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 046" PC="46">
-				<Bank Name="User 046" LSB="0" MSB="98"/>
+				<Bank Name="User 046" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 047" PC="47">
-				<Bank Name="User 047" LSB="0" MSB="98"/>
+				<Bank Name="User 047" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 048" PC="48">
-				<Bank Name="User 048" LSB="0" MSB="98"/>
+				<Bank Name="User 048" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 049" PC="49">
-				<Bank Name="User 049" LSB="0" MSB="98"/>
+				<Bank Name="User 049" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 050" PC="50">
-				<Bank Name="User 050" LSB="0" MSB="98"/>
+				<Bank Name="User 050" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 051" PC="51">
-				<Bank Name="User 051" LSB="0" MSB="98"/>
+				<Bank Name="User 051" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 052" PC="52">
-				<Bank Name="User 052" LSB="0" MSB="98"/>
+				<Bank Name="User 052" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 053" PC="53">
-				<Bank Name="User 053" LSB="0" MSB="98"/>
+				<Bank Name="User 053" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 054" PC="54">
-				<Bank Name="User 054" LSB="0" MSB="98"/>
+				<Bank Name="User 054" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 055" PC="55">
-				<Bank Name="User 055" LSB="0" MSB="98"/>
+				<Bank Name="User 055" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 056" PC="56">
-				<Bank Name="User 056" LSB="0" MSB="98"/>
+				<Bank Name="User 056" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 057" PC="57">
-				<Bank Name="User 057" LSB="0" MSB="98"/>
+				<Bank Name="User 057" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 058" PC="58">
-				<Bank Name="User 058" LSB="0" MSB="98"/>
+				<Bank Name="User 058" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 059" PC="59">
-				<Bank Name="User 059" LSB="0" MSB="98"/>
+				<Bank Name="User 059" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 060" PC="60">
-				<Bank Name="User 060" LSB="0" MSB="98"/>
+				<Bank Name="User 060" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 061" PC="61">
-				<Bank Name="User 061" LSB="0" MSB="98"/>
+				<Bank Name="User 061" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 062" PC="62">
-				<Bank Name="User 062" LSB="0" MSB="98"/>
+				<Bank Name="User 062" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 063" PC="63">
-				<Bank Name="User 063" LSB="0" MSB="98"/>
+				<Bank Name="User 063" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 064" PC="64">
-				<Bank Name="User 064" LSB="0" MSB="98"/>
+				<Bank Name="User 064" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 065" PC="65">
-				<Bank Name="User 065" LSB="0" MSB="98"/>
+				<Bank Name="User 065" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 066" PC="66">
-				<Bank Name="User 066" LSB="0" MSB="98"/>
+				<Bank Name="User 066" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 067" PC="67">
-				<Bank Name="User 067" LSB="0" MSB="98"/>
+				<Bank Name="User 067" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 068" PC="68">
-				<Bank Name="User 068" LSB="0" MSB="98"/>
+				<Bank Name="User 068" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 069" PC="69">
-				<Bank Name="User 069" LSB="0" MSB="98"/>
+				<Bank Name="User 069" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 070" PC="70">
-				<Bank Name="User 070" LSB="0" MSB="98"/>
+				<Bank Name="User 070" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 071" PC="71">
-				<Bank Name="User 071" LSB="0" MSB="98"/>
+				<Bank Name="User 071" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 072" PC="72">
-				<Bank Name="User 072" LSB="0" MSB="98"/>
+				<Bank Name="User 072" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 073" PC="73">
-				<Bank Name="User 073" LSB="0" MSB="98"/>
+				<Bank Name="User 073" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 074" PC="74">
-				<Bank Name="User 074" LSB="0" MSB="98"/>
+				<Bank Name="User 074" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 075" PC="75">
-				<Bank Name="User 075" LSB="0" MSB="98"/>
+				<Bank Name="User 075" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 076" PC="76">
-				<Bank Name="User 076" LSB="0" MSB="98"/>
+				<Bank Name="User 076" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 077" PC="77">
-				<Bank Name="User 077" LSB="0" MSB="98"/>
+				<Bank Name="User 077" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 078" PC="78">
-				<Bank Name="User 078" LSB="0" MSB="98"/>
+				<Bank Name="User 078" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 079" PC="79">
-				<Bank Name="User 079" LSB="0" MSB="98"/>
+				<Bank Name="User 079" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 080" PC="80">
-				<Bank Name="User 080" LSB="0" MSB="98"/>
+				<Bank Name="User 080" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 081" PC="81">
-				<Bank Name="User 081" LSB="0" MSB="98"/>
+				<Bank Name="User 081" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 082" PC="82">
-				<Bank Name="User 082" LSB="0" MSB="98"/>
+				<Bank Name="User 082" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 083" PC="83">
-				<Bank Name="User 083" LSB="0" MSB="98"/>
+				<Bank Name="User 083" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 084" PC="84">
-				<Bank Name="User 084" LSB="0" MSB="98"/>
+				<Bank Name="User 084" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 085" PC="85">
-				<Bank Name="User 085" LSB="0" MSB="98"/>
+				<Bank Name="User 085" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 086" PC="86">
-				<Bank Name="User 086" LSB="0" MSB="98"/>
+				<Bank Name="User 086" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 087" PC="87">
-				<Bank Name="User 087" LSB="0" MSB="98"/>
+				<Bank Name="User 087" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 088" PC="88">
-				<Bank Name="User 088" LSB="0" MSB="98"/>
+				<Bank Name="User 088" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 089" PC="89">
-				<Bank Name="User 089" LSB="0" MSB="98"/>
+				<Bank Name="User 089" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 090" PC="90">
-				<Bank Name="User 090" LSB="0" MSB="98"/>
+				<Bank Name="User 090" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 091" PC="91">
-				<Bank Name="User 091" LSB="0" MSB="98"/>
+				<Bank Name="User 091" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 092" PC="92">
-				<Bank Name="User 092" LSB="0" MSB="98"/>
+				<Bank Name="User 092" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 093" PC="93">
-				<Bank Name="User 093" LSB="0" MSB="98"/>
+				<Bank Name="User 093" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 094" PC="94">
-				<Bank Name="User 094" LSB="0" MSB="98"/>
+				<Bank Name="User 094" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 095" PC="95">
-				<Bank Name="User 095" LSB="0" MSB="98"/>
+				<Bank Name="User 095" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 096" PC="96">
-				<Bank Name="User 096" LSB="0" MSB="98"/>
+				<Bank Name="User 096" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 097" PC="97">
-				<Bank Name="User 097" LSB="0" MSB="98"/>
+				<Bank Name="User 097" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 098" PC="98">
-				<Bank Name="User 098" LSB="0" MSB="98"/>
+				<Bank Name="User 098" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 099" PC="99">
-				<Bank Name="User 099" LSB="0" MSB="98"/>
+				<Bank Name="User 099" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 100" PC="100">
-				<Bank Name="User 100" LSB="0" MSB="98"/>
+				<Bank Name="User 100" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 101" PC="101">
-				<Bank Name="User 101" LSB="0" MSB="98"/>
+				<Bank Name="User 101" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 102" PC="102">
-				<Bank Name="User 102" LSB="0" MSB="98"/>
+				<Bank Name="User 102" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 103" PC="103">
-				<Bank Name="User 103" LSB="0" MSB="98"/>
+				<Bank Name="User 103" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 104" PC="104">
-				<Bank Name="User 104" LSB="0" MSB="98"/>
+				<Bank Name="User 104" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 105" PC="105">
-				<Bank Name="User 105" LSB="0" MSB="98"/>
+				<Bank Name="User 105" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 106" PC="106">
-				<Bank Name="User 106" LSB="0" MSB="98"/>
+				<Bank Name="User 106" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 107" PC="107">
-				<Bank Name="User 107" LSB="0" MSB="98"/>
+				<Bank Name="User 107" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 108" PC="108">
-				<Bank Name="User 108" LSB="0" MSB="98"/>
+				<Bank Name="User 108" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 109" PC="109">
-				<Bank Name="User 109" LSB="0" MSB="98"/>
+				<Bank Name="User 109" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 110" PC="110">
-				<Bank Name="User 110" LSB="0" MSB="98"/>
+				<Bank Name="User 110" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 111" PC="111">
-				<Bank Name="User 111" LSB="0" MSB="98"/>
+				<Bank Name="User 111" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 112" PC="112">
-				<Bank Name="User 112" LSB="0" MSB="98"/>
+				<Bank Name="User 112" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 113" PC="113">
-				<Bank Name="User 113" LSB="0" MSB="98"/>
+				<Bank Name="User 113" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 114" PC="114">
-				<Bank Name="User 114" LSB="0" MSB="98"/>
+				<Bank Name="User 114" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 115" PC="115">
-				<Bank Name="User 115" LSB="0" MSB="98"/>
+				<Bank Name="User 115" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 116" PC="116">
-				<Bank Name="User 116" LSB="0" MSB="98"/>
+				<Bank Name="User 116" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 117" PC="117">
-				<Bank Name="User 117" LSB="0" MSB="98"/>
+				<Bank Name="User 117" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 118" PC="118">
-				<Bank Name="User 118" LSB="0" MSB="98"/>
+				<Bank Name="User 118" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 119" PC="119">
-				<Bank Name="User 119" LSB="0" MSB="98"/>
+				<Bank Name="User 119" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 120" PC="120">
-				<Bank Name="User 120" LSB="0" MSB="98"/>
+				<Bank Name="User 120" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 121" PC="121">
-				<Bank Name="User 121" LSB="0" MSB="98"/>
+				<Bank Name="User 121" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 122" PC="122">
-				<Bank Name="User 122" LSB="0" MSB="98"/>
+				<Bank Name="User 122" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 123" PC="123">
-				<Bank Name="User 123" LSB="0" MSB="98"/>
+				<Bank Name="User 123" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 124" PC="124">
-				<Bank Name="User 124" LSB="0" MSB="98"/>
+				<Bank Name="User 124" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 125" PC="125">
-				<Bank Name="User 125" LSB="0" MSB="98"/>
+				<Bank Name="User 125" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 126" PC="126">
-				<Bank Name="User 126" LSB="0" MSB="98"/>
+				<Bank Name="User 126" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 127" PC="127">
-				<Bank Name="User 127" LSB="0" MSB="98"/>
+				<Bank Name="User 127" LSB="0" MSB="98" />
 			</PC>
 			<PC Name="User 128" PC="128">
-				<Bank Name="User 128" LSB="0" MSB="98"/>
+				<Bank Name="User 128" LSB="0" MSB="98" />
 			</PC>
 		</Map>
-</InstrumentList>
-  <DrumSetList>
-    <Map Name="GM">
-      <PC Name="Rhythm" PC="1">
-        <Bank Name="Rhythm" LSB="0" MSB="0">
-          <Tone Name="Acou Bass Drum" Key="35" />
-          <Tone Name="Bass Drum 1" Key="36" />
-          <Tone Name="Side Stick" Key="37" />
-          <Tone Name="Acoustic Snare" Key="38" />
-          <Tone Name="Hand clap" Key="39" />
-          <Tone Name="Electoric Snare" Key="40" />
-          <Tone Name="Low Floor Tom" Key="41" />
-          <Tone Name="Closed Hi-Hat" Key="42" />
-          <Tone Name="High Floor Tom" Key="43" />
-          <Tone Name="Pedal Hi-Hat" Key="44" />
-          <Tone Name="Low Tom" Key="45" />
-          <Tone Name="Open Hi-Hat" Key="46" />
-          <Tone Name="Low Mid Tom" Key="47" />
-          <Tone Name="Hi Mid Tom" Key="48" />
-          <Tone Name="Crash Cymbal 1" Key="49" />
-          <Tone Name="High Tom" Key="50" />
-          <Tone Name="Ride Cymbal 1" Key="51" />
-          <Tone Name="Chinese Cymbal" Key="52" />
-          <Tone Name="Ride Bell" Key="53" />
-          <Tone Name="Tambourine" Key="54" />
-          <Tone Name="Splash Cymbal" Key="55" />
-          <Tone Name="Cowbell" Key="56" />
-          <Tone Name="Crash Cymbal 2" Key="57" />
-          <Tone Name="Vibraslap" Key="58" />
-          <Tone Name="Ride Cymbal 2" Key="59" />
-          <Tone Name="Hi Bongo" Key="60" />
-          <Tone Name="Low Bongo" Key="61" />
-          <Tone Name="Mute Hi Conga" Key="62" />
-          <Tone Name="Open Hi Conga" Key="63" />
-          <Tone Name="Low Conga" Key="64" />
-          <Tone Name="High Timbale" Key="65" />
-          <Tone Name="Low Timbale" Key="66" />
-          <Tone Name="High Agogo" Key="67" />
-          <Tone Name="Low Agogo" Key="68" />
-          <Tone Name="Cabassa" Key="69" />
-          <Tone Name="Maracas" Key="70" />
-          <Tone Name="Short Whistle" Key="71" />
-          <Tone Name="Long Whistle" Key="72" />
-          <Tone Name="Short Guiro" Key="73" />
-          <Tone Name="Long Guiro" Key="74" />
-          <Tone Name="Claves" Key="75" />
-          <Tone Name="High Wood Block" Key="76" />
-          <Tone Name="Low Wood Block" Key="77" />
-          <Tone Name="Mute Cuica" Key="78" />
-          <Tone Name="Open Cuica" Key="79" />
-          <Tone Name="Mute Triangle" Key="80" />
-          <Tone Name="Open Triangle" Key="81" />
-        </Bank>
-      </PC>
-    </Map>
-  </DrumSetList>
+	</InstrumentList>
+	<DrumSetList>
+		<Map Name="GM">
+			<PC Name="Rhythm" PC="1">
+				<Bank Name="Rhythm" LSB="0" MSB="0">
+					<Tone Name="Acou Bass Drum" Key="35" />
+					<Tone Name="Bass Drum 1" Key="36" />
+					<Tone Name="Side Stick" Key="37" />
+					<Tone Name="Acoustic Snare" Key="38" />
+					<Tone Name="Hand clap" Key="39" />
+					<Tone Name="Electoric Snare" Key="40" />
+					<Tone Name="Low Floor Tom" Key="41" />
+					<Tone Name="Closed Hi-Hat" Key="42" />
+					<Tone Name="High Floor Tom" Key="43" />
+					<Tone Name="Pedal Hi-Hat" Key="44" />
+					<Tone Name="Low Tom" Key="45" />
+					<Tone Name="Open Hi-Hat" Key="46" />
+					<Tone Name="Low Mid Tom" Key="47" />
+					<Tone Name="Hi Mid Tom" Key="48" />
+					<Tone Name="Crash Cymbal 1" Key="49" />
+					<Tone Name="High Tom" Key="50" />
+					<Tone Name="Ride Cymbal 1" Key="51" />
+					<Tone Name="Chinese Cymbal" Key="52" />
+					<Tone Name="Ride Bell" Key="53" />
+					<Tone Name="Tambourine" Key="54" />
+					<Tone Name="Splash Cymbal" Key="55" />
+					<Tone Name="Cowbell" Key="56" />
+					<Tone Name="Crash Cymbal 2" Key="57" />
+					<Tone Name="Vibraslap" Key="58" />
+					<Tone Name="Ride Cymbal 2" Key="59" />
+					<Tone Name="Hi Bongo" Key="60" />
+					<Tone Name="Low Bongo" Key="61" />
+					<Tone Name="Mute Hi Conga" Key="62" />
+					<Tone Name="Open Hi Conga" Key="63" />
+					<Tone Name="Low Conga" Key="64" />
+					<Tone Name="High Timbale" Key="65" />
+					<Tone Name="Low Timbale" Key="66" />
+					<Tone Name="High Agogo" Key="67" />
+					<Tone Name="Low Agogo" Key="68" />
+					<Tone Name="Cabassa" Key="69" />
+					<Tone Name="Maracas" Key="70" />
+					<Tone Name="Short Whistle" Key="71" />
+					<Tone Name="Long Whistle" Key="72" />
+					<Tone Name="Short Guiro" Key="73" />
+					<Tone Name="Long Guiro" Key="74" />
+					<Tone Name="Claves" Key="75" />
+					<Tone Name="High Wood Block" Key="76" />
+					<Tone Name="Low Wood Block" Key="77" />
+					<Tone Name="Mute Cuica" Key="78" />
+					<Tone Name="Open Cuica" Key="79" />
+					<Tone Name="Mute Triangle" Key="80" />
+					<Tone Name="Open Triangle" Key="81" />
+				</Bank>
+			</PC>
+		</Map>
+	</DrumSetList>
 
-  <ControlChangeMacroList>
-    <Table ID="1">
-      <Entry Label="GM風" Value="2" />
-      <Entry Label="GS風" Value="1" />
-      <Entry Label="XG風" Value="0" />
-    </Table>
-    <Folder Name="PerformEdit">
-      <CCM ID="130" Name="ﾋﾟｯﾁﾍﾞﾝﾄﾞ" Color="#0fa806" Sync="Last">
-        <Value Min="-8192" Max="8191" Offset="8192" />
-        <Memo>音程を変化させます。</Memo>
-        <Data>@PB #VH #VL</Data>
-      </CCM>
-      <CCM ID="140" Name="ﾋﾟｯﾁﾍﾞﾝﾄﾞｾﾝｼﾃｨﾋﾞﾃｨ" Sync="Last">
-        <Value Default="2" Min="0" Max="24" />
-        <Memo>ピッチベンドで変わる音程の最大値を設定します。12で1オクターブです。</Memo>
-        <Data>@RPN 00H 00H #VL #NONE</Data>
-      </CCM>
-      <CCM ID="11" Name="ｴｸｽﾌﾟﾚｯｼｮﾝ" Color="#CA0000" Sync="Last">
-        <Value />
-        <Memo>パートの音量を設定します。主に演奏中の抑揚表現に使用します。</Memo>
-        <Data>@CC 11 #VL</Data>
-      </CCM>
-      <CCM ID="64" Name="ﾎｰﾙﾄﾞ">
-        <Value>
-          <Entry Label="Off" Value="0" />
-          <Entry Label="On" Value="127" />
-        </Value>
-        <Memo>音を持続させるかどうかを設定します。</Memo>
-        <Data>@CC 64 #VL</Data>
-      </CCM>
-    </Folder>
-    <Folder Name="PartEdit">
-      <CCM ID="7" Name="ﾊﾟｰﾄﾚﾍﾞﾙ" Color="#CA0000" Sync="Last">
-        <Value Default="100" />
-        <Memo>パートの音量バランスを設定します。</Memo>
-        <Data>@CC 7 #VL</Data>
-      </CCM>
-      <CCM ID="10" Name="ﾊﾟﾝﾎﾟｯﾄ" Color="#008080" Sync="Last">
-        <Value Min="-64" Max="63" Offset="64" />
-        <Memo>音の定位を設定します。</Memo>
-        <Data>@CC 10 #VL</Data>
-      </CCM>
-    </Folder>
-	<Folder Name="その他">
-      <CCM ID="6" Name="ﾃﾞｰﾀｴﾝﾄﾘ(MSB)">
-        <Value />
-        <Memo>データエントリMSBを設定します。</Memo>
-        <Data>@CC 6 #VL</Data>
-      </CCM>
-      <CCM ID="100" Name="RPN(LSB)">
-        <Value />
-        <Memo></Memo>
-        <Data>@CC 100 #VL</Data>
-      </CCM>
-      <CCM ID="101" Name="RPN(MSB)">
-        <Value />
-        <Memo></Memo>
-        <Data>@CC 101 #VL</Data>
-      </CCM>
-      <CCM ID="121" Name="ﾘｾｯﾄｵｰﾙｺﾝﾄﾛｰﾗ">
-        <Memo></Memo>
-        <Data>@CC 121 0</Data>
-      </CCM>
-	  <CCM ID="123" Name="ｵｰﾙﾉｰﾄｵﾌ">
-        <Memo></Memo>
-        <Data>@CC 123 0</Data>
-      </CCM>
-      <CCM ID="131" Name="ﾏｽﾀｰﾎﾞﾘｭｰﾑ" Color="#CC00FF" Sync="Last">
-        <Value Default="127" />
-        <Data>@SYSEX F0H 7FH 7FH 04H 01H 00H #VL F7H</Data>
-        <Memo>全体の音量を設定します。</Memo>
-      </CCM>
-      <CCM ID="128" Name="Rest" Color="#aaaaaa">
-        <Memo>休符です。</Memo>
-      </CCM>
-	</Folder>
-    <Folder Name="リセット系">
-      <CCM ID="200" Name="GMｼｽﾃﾑｵﾝ" Color="#BDADCC">
-        <Data>@SYSEX F0H 7EH 7FH 09H 01H F7H</Data>
-        <Memo>GMの初期化メッセージ。\n通常はこちらを使用してください。</Memo>
-      </CCM>
-      <CCM ID="143" Name="XGｼｽﾃﾑｵﾝ" Color="#ADCC51">
-        <Data>@SYSEX F0H 43H 10H 4CH 00H 00H 7EH 00H F7H</Data>
-        <Memo>XGの初期化メッセージ。</Memo>
-      </CCM>
-      <CCM ID="141" Name="GSﾘｾｯﾄ" Color="#CC681C">
-        <Data>@SYSEX F0H 41H 10H 42H 12H 40H 00H 7FH 00H 41H F7H</Data>
-        <Memo>GSの初期化メッセージ。</Memo>
-      </CCM>
-    </Folder>
-    <Folder Name="独自エクスクルーシブ">
-      <CCM ID="300" Name="MMXﾕﾆｯﾄｱｻｲﾝ">
-        <Value Min="0" Max="4"/>
-        <Data>@SYSEX F0H 43H 10H 4CH 08H #CH 6FH #VL F7H</Data>
-        <Memo>Multiモード時のチャネルとユニットの対応を設定します。\nこの設定はリセット系エクスクルーシブにより初期化されます。\nMultiモード以外のときには影響を受けません。</Memo>
-      </CCM>
-      <CCM ID="301" Name="ｶﾗｰﾃｰﾏ" Color="#CC0000">
-        <Value Min="0" Max="2" TableID="1" />
-        <Data>@SYSEX F0H 43H 10H 4CH 01H 06H 00H #VL F7H</Data>
-        <Memo>画面の配色を一時的に変更します。\n動作に違いはありません。</Memo>
-      </CCM>
-    </Folder>
-  </ControlChangeMacroList>
-  <TemplateList>
-    <Template ID="0" Name="トラック初期化">
-      <Memo>トラック初期化用テンプレートです。</Memo>
-      <CC ID="7" Value="100" />
-      <CC ID="10" Value="0" />
-      <PC Mode="Auto" />
-      <CC ID="130" Value="0" />
-      <CC ID="11" Value="127" />
-      <CC ID="300" Value="0" />
-    </Template>
-  </TemplateList>
-  <DefaultData>
-    <Track Mode="Conductor">
-      <Mark Tick="0" Name="Setup" />
-      <Tempo Tick="0" Tempo="120.0" />
-      <Mark Tick="1920" Name="Start" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Name="Setup" Ch="1">
-      <CC Tick="0" ID="200" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="1" Current="1">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="2">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="3">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="4">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="5">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="6">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="7">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="8">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="9">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Name="Rhythm" Ch="10" Mode="Rhythm">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="11">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="12">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="13">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="14">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="15">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-    <Track Ch="16">
-      <Template ID="0" Tick="480" />
-      <EOT Tick="1920" />
-    </Track>
-  </DefaultData>
+	<ControlChangeMacroList>
+		<Table ID="1">
+			<Entry Label="GM風" Value="2" />
+			<Entry Label="GS風" Value="1" />
+			<Entry Label="XG風" Value="0" />
+		</Table>
+		<Folder Name="PerformEdit">
+			<CCM ID="130" Name="ﾋﾟｯﾁﾍﾞﾝﾄﾞ" Color="#0fa806" Sync="Last">
+				<Value Min="-8192" Max="8191" Offset="8192" />
+				<Memo>音程を変化させます。</Memo>
+				<Data>@PB #VH #VL</Data>
+			</CCM>
+			<CCM ID="140" Name="ﾋﾟｯﾁﾍﾞﾝﾄﾞｾﾝｼﾃｨﾋﾞﾃｨ" Sync="Last">
+				<Value Default="2" Min="0" Max="24" />
+				<Memo>ピッチベンドで変わる音程の最大値を設定します。12で1オクターブです。</Memo>
+				<Data>@RPN 00H 00H #VL #NONE</Data>
+			</CCM>
+			<CCM ID="11" Name="ｴｸｽﾌﾟﾚｯｼｮﾝ" Color="#CA0000" Sync="Last">
+				<Value />
+				<Memo>パートの音量を設定します。主に演奏中の抑揚表現に使用します。</Memo>
+				<Data>@CC 11 #VL</Data>
+			</CCM>
+			<CCM ID="64" Name="ﾎｰﾙﾄﾞ">
+				<Value>
+					<Entry Label="Off" Value="0" />
+					<Entry Label="On" Value="127" />
+				</Value>
+				<Memo>音を持続させるかどうかを設定します。</Memo>
+				<Data>@CC 64 #VL</Data>
+			</CCM>
+		</Folder>
+		<Folder Name="PartEdit">
+			<CCM ID="7" Name="ﾊﾟｰﾄﾚﾍﾞﾙ" Color="#CA0000" Sync="Last">
+				<Value Default="100" />
+				<Memo>パートの音量バランスを設定します。</Memo>
+				<Data>@CC 7 #VL</Data>
+			</CCM>
+			<CCM ID="10" Name="ﾊﾟﾝﾎﾟｯﾄ" Color="#008080" Sync="Last">
+				<Value Min="-64" Max="63" Offset="64" />
+				<Memo>音の定位を設定します。</Memo>
+				<Data>@CC 10 #VL</Data>
+			</CCM>
+		</Folder>
+		<Folder Name="その他">
+			<CCM ID="6" Name="ﾃﾞｰﾀｴﾝﾄﾘ(MSB)">
+				<Value />
+				<Memo>データエントリMSBを設定します。</Memo>
+				<Data>@CC 6 #VL</Data>
+			</CCM>
+			<CCM ID="100" Name="RPN(LSB)">
+				<Value />
+				<Memo></Memo>
+				<Data>@CC 100 #VL</Data>
+			</CCM>
+			<CCM ID="101" Name="RPN(MSB)">
+				<Value />
+				<Memo></Memo>
+				<Data>@CC 101 #VL</Data>
+			</CCM>
+			<CCM ID="121" Name="ﾘｾｯﾄｵｰﾙｺﾝﾄﾛｰﾗ">
+				<Memo></Memo>
+				<Data>@CC 121 0</Data>
+			</CCM>
+			<CCM ID="123" Name="ｵｰﾙﾉｰﾄｵﾌ">
+				<Memo></Memo>
+				<Data>@CC 123 0</Data>
+			</CCM>
+			<CCM ID="131" Name="ﾏｽﾀｰﾎﾞﾘｭｰﾑ" Color="#CC00FF" Sync="Last">
+				<Value Default="127" />
+				<Data>@SYSEX F0H 7FH 7FH 04H 01H 00H #VL F7H</Data>
+				<Memo>全体の音量を設定します。</Memo>
+			</CCM>
+			<CCM ID="201" Name="GS ﾄﾞﾗﾑ追加" Color="#0000FF">
+				<Value Default="2" Max="2" Name="ﾓｰﾄﾞを設定">
+					<Entry Label="0  Melody" Value="0" />
+					<Entry Label="1  Drum 1" Value="1" />
+					<Entry Label="2  Drum 2" Value="2" />
+				</Value>
+				<Gate Default="26" Min="16" Max="31" TableID="15" Name="CH を選択" />
+				<Data>@SYSEX F0H 41H 10H 42H 12H [ 40H #GL 15H #VL ] F7H</Data>
+				<Memo>メロディー/ドラムパート設定を行うときに使用します。(GS互換)\nデータ互換のためにDrum1と2がありますが本音源は区別していません。</Memo>
+			</CCM>
+			<CCM ID="202" Name="XG ﾄﾞﾗﾑ追加" Color="#CC0000">
+				<Value Default="2" Min="-1" Max="4" Offset="1" Name="ﾓｰﾄﾞを設定">
+					<Entry Label="-1  Melody" Value="-1" />
+					<Entry Label=" 0  Drum 0" Value="0" />
+					<Entry Label=" 1  Drum 1" Value="1" />
+					<Entry Label=" 2  Drum 2" Value="2" />
+					<Entry Label=" 3  Drum 3" Value="3" />
+					<Entry Label=" 4  Drum 4" Value="4" />
+				</Value>
+				<Gate Default="11" Min="1" Max="64" Offset="-1" TableID="12" Name="CH を選択" />
+				<Data>@SYSEX F0H 43H 10H 4CH 08H #GL 07H #VL F7H</Data>
+				<Memo>メロディー/ドラムパート設定を行うときに使用します。(XG互換)\nデータ互換のためにDrum0-4までありますが本音源は区別していません。</Memo>
+			</CCM>
+			<CCM ID="128" Name="Rest" Color="#aaaaaa">
+				<Memo>休符です。</Memo>
+			</CCM>
+		</Folder>
+		<Folder Name="リセット系">
+			<CCM ID="200" Name="GMｼｽﾃﾑｵﾝ" Color="#BDADCC">
+				<Data>@SYSEX F0H 7EH 7FH 09H 01H F7H</Data>
+				<Memo>GMの初期化メッセージ。\n通常はこちらを使用してください。</Memo>
+			</CCM>
+			<CCM ID="147" Name="GM2ｼｽﾃﾑｵﾝ" Color="#60ADCC">
+				<Data>@SYSEX F0H 7EH 7FH 09H 03H F7H</Data>
+				<Memo>GM2の初期化メッセージ。</Memo>
+			</CCM>
+			<CCM ID="143" Name="XGｼｽﾃﾑｵﾝ" Color="#ADCC51">
+				<Data>@SYSEX F0H 43H 10H 4CH 00H 00H 7EH 00H F7H</Data>
+				<Memo>XGの初期化メッセージ。</Memo>
+			</CCM>
+			<CCM ID="141" Name="GSﾘｾｯﾄ" Color="#CC681C">
+				<Data>@SYSEX F0H 41H 10H 42H 12H 40H 00H 7FH 00H 41H F7H</Data>
+				<Memo>GSの初期化メッセージ。</Memo>
+			</CCM>
+			<CCM ID="900" Name="CureSynth Reset" Color="#000000">
+				<Data>@SYSEX F0H 00H 48H 05H 7FH 00H 00H F7H</Data>
+				<Memo>Cure Synthの初期化メッセージ。</Memo>
+			</CCM>
+		</Folder>
+		<Folder Name="CureSynth互換系">
+			<CCM ID="903" Name="Japanese character mode" Color="#CC0000">
+				<Value Default="0" Max="1">
+					<Entry Label="Japanese Char OFF" Value="0" />
+					<Entry Label="Japanese Char ON" Value="1" />
+				</Value>
+				<Data>@SYSEX F0H 00H 48H 05H 7FH 05H #VL F7H</Data>
+				<Memo>日本語表示モードをON/OFFする。日本語表示モードをオンにすると、Japanese character controlで日本語が表示できるようになる。</Memo>
+			</CCM>
+			<CCM ID="904" Name="Japanese character Delete" Color="#CC0000">
+				<Value Default="0" Max="1">
+					<Entry Label="Delete All" Value="0" />
+					<Entry Label="Delete Upper" Value="1" />
+					<Entry Label="Delete lower" Value="2" />
+				</Value>
+				<Data>@SYSEX F0H 00H 48H 05H 7FH 06H #VL F7H</Data>
+				<Memo>日本語を削除する。上段削除(Delete Upper)または下段削除(Delete lower)、2行とも削除(Delete All)が選択できる。</Memo>
+			</CCM>
+		</Folder>
+		<Folder Name="独自エクスクルーシブ">
+			<CCM ID="300" Name="MMXﾕﾆｯﾄｱｻｲﾝ">
+				<Value Min="0" Max="4" />
+				<Data>@SYSEX F0H 43H 10H 4CH 08H #CH 6FH #VL F7H</Data>
+				<Memo>
+					Multiモード時のチャネルとユニットの対応を設定します。\nこの設定はリセット系エクスクルーシブにより初期化されます。\nMultiモード以外のときには影響を受けません。</Memo>
+			</CCM>
+			<CCM ID="301" Name="ｶﾗｰﾃｰﾏ" Color="#CC0000">
+				<Value Min="0" Max="2" TableID="1" />
+				<Data>@SYSEX F0H 43H 10H 4CH 01H 06H 00H #VL F7H</Data>
+				<Memo>画面の配色を一時的に変更します。\n動作に違いはありません。</Memo>
+			</CCM>
+		</Folder>
+	</ControlChangeMacroList>
+	<TemplateList>
+		<Template ID="0" Name="トラック初期化">
+			<Memo>トラック初期化用テンプレートです。</Memo>
+			<CC ID="7" Value="100" />
+			<CC ID="10" Value="0" />
+			<PC Mode="Auto" />
+			<CC ID="130" Value="0" />
+			<CC ID="11" Value="127" />
+			<CC ID="300" Value="0" />
+		</Template>
+	</TemplateList>
+	<DefaultData>
+		<Track Mode="Conductor">
+			<Mark Tick="0" Name="Setup" />
+			<Tempo Tick="0" Tempo="120.0" />
+			<Mark Tick="1920" Name="Start" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Name="Setup" Ch="1">
+			<CC Tick="0" ID="200" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="1" Current="1">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="2">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="3">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="4">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="5">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="6">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="7">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="8">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="9">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Name="Rhythm" Ch="10" Mode="Rhythm">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="11">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="12">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="13">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="14">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="15">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+		<Track Ch="16">
+			<Template ID="0" Tick="480" />
+			<EOT Tick="1920" />
+		</Track>
+	</DefaultData>
 </ModuleData>

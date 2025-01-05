@@ -6,7 +6,7 @@ title: ダウンロード
 
 ## Domino定義ファイル
 
-[Domino音源定義ファイル 1.10](files/feng_SO.xml)
+[Domino音源定義ファイル 1.15](files/feng_SO.xml)
 
 リンクを右クリックし、「名前を付けてリンクを保存(Edgeの場合)」からxmlファイルをDominoのModuleフォルダに保存してください。
 
