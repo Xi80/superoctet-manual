@@ -34,15 +34,33 @@ title: ファームウェア更新
 
 いずれも書き込むファームウェアは`tg.bin`とします。
 
-!!! tip inline end "情報"
+### Windows + kflash_gui(おすすめ)
 
-    使用しているUSB-シリアル変換IC(CH340)のドライバの問題により**Windows環境では正しく書き込めないことがわかっています**。
+次にGUIから書き込みが可能な`kflash_gui`による方法を説明します。
 
-    そのため、本セクションでは**Linuxが動作する環境が必要**です。
+こちらはインストール不要で書き込めるのでWindows環境の方にはお勧めです。
 
-    作者はVMWare上にUbuntu24.04の環境を構築し、本音源をVMに接続して書き込んでいます(WSL2+usbipdではダメでした)。
-    
-    Linuxの環境構築についてはサポートしませんので各自で構築してください。
+まず、[GitHubのReleases](https://github.com/sipeed/kflash_gui/releases)から`kflash_gui`をダウンロードします。
+
+![GitHubのReleases](img/kflash_gui_dl.png)
+
+ダウンロードしたzipファイルを適当な場所に展開し、`kflash_gui.exe`を実行します。
+
+![kflashを起動した画面](img/kflash_gui_main.png)
+
+赤枠で囲っている項目を設定します。
+
+| 引数         | 意味                                                                                      | 
+| ----------   | ----------------------------------------------------------------------------------------- | 
+| Select File  | 書き込むファームウェア                                                                    | 
+| Port         | COMポートを指定、環境によって異なります。<br>表示名はCH340Kになっています                 | 
+| Baudrate     | ボーレートを1Mbps(=1,000,000bps)に設定<br>初期値では速すぎるため変更、1Mbpsが実用上の上限 | 
+
+設定ができたら`Download`を押して書き込みを開始します。
+
+次のような画面が表示されたら書き込みは成功です。
+
+![書き込み完了](img/kflash_gui_ok.png)
 
 ### Ubuntu + kflash
 
