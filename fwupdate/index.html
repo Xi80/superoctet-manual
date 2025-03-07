@@ -205,23 +205,14 @@
 <p><img alt="モード切替スイッチ" src="../img/mode_sw.jpg" /></p>
 <p>波形生成プロセッサのファームウェアを書き込むためには画像下のスイッチの位置に合わせます。</p>
 <p>裏には▲でポジションを示す記号がありますので参考にしてください。</p>
-<p>ここでは2通りの方法を説明します。</p>
-<ul>
-<li>
-<p>Ubuntu + kflash</p>
-<ul>
-<li>作者はこれを使用</li>
-</ul>
-</li>
-<li>
-<p>Windows + kflash_gui</p>
-<ul>
-<li>GUIで書き込みを行う</li>
-<li>環境によってはうまくいかないため非推奨</li>
-</ul>
-</li>
-</ul>
 <p>いずれも書き込むファームウェアは<code>tg.bin</code>とします。</p>
+<div class="admonition info inline end">
+<p class="admonition-title">書き込み環境について</p>
+<p>使用しているUSB-シリアル変換IC(CH340)のドライバの問題により<strong>Windows環境では正しく書き込めないことがわかっています</strong>．
+そのため，本セクションではLinuxが動作する環境が必要です．
+作者はVMWare上にUbuntu24.04の環境を構築し，本音源をVMに接続して書き込んでいます(WSL2+usbipdではダメでした)．
+Linuxの環境構築についてはサポートしませんので各自で構築してください．</p>
+</div>
 <h3 id="ubuntu-kflash">Ubuntu + kflash</h3>
 <p><code>Python</code>と<code>pip</code>をインストールしていない場合はインストールします。</p>
 <pre><code class="language-bash">$ sudo apt install python3 python3-pip
