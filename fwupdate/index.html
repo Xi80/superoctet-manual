@@ -175,6 +175,8 @@
         <li class="first-level "><a href="#_2">波形生成プロセッサのファームウェア更新方法</a></li>
             <li class="second-level"><a href="#_3">モード切り替え</a></li>
                 
+            <li class="second-level"><a href="#windows-kflash_gui">Windows + kflash_gui(おすすめ)</a></li>
+                
             <li class="second-level"><a href="#ubuntu-kflash">Ubuntu + kflash</a></li>
                 
             <li class="second-level"><a href="#_4">書き込みが完了したら</a></li>
@@ -206,13 +208,39 @@
 <p>波形生成プロセッサのファームウェアを書き込むためには画像下のスイッチの位置に合わせます。</p>
 <p>裏には▲でポジションを示す記号がありますので参考にしてください。</p>
 <p>いずれも書き込むファームウェアは<code>tg.bin</code>とします。</p>
-<div class="admonition tip inline end">
-<p class="admonition-title">情報</p>
-<p>使用しているUSB-シリアル変換IC(CH340)のドライバの問題により<strong>Windows環境では正しく書き込めないことがわかっています</strong>。</p>
-<p>そのため、本セクションでは<strong>Linuxが動作する環境が必要</strong>です。</p>
-<p>作者はVMWare上にUbuntu24.04の環境を構築し、本音源をVMに接続して書き込んでいます(WSL2+usbipdではダメでした)。</p>
-<p>Linuxの環境構築についてはサポートしませんので各自で構築してください。</p>
-</div>
+<h3 id="windows-kflash_gui">Windows + kflash_gui(おすすめ)</h3>
+<p>次にGUIから書き込みが可能な<code>kflash_gui</code>による方法を説明します。</p>
+<p>こちらはインストール不要で書き込めるのでWindows環境の方にはお勧めです。</p>
+<p>まず、<a href="https://github.com/sipeed/kflash_gui/releases">GitHubのReleases</a>から<code>kflash_gui</code>をダウンロードします。</p>
+<p><img alt="GitHubのReleases" src="../img/kflash_gui_dl.png" /></p>
+<p>ダウンロードしたzipファイルを適当な場所に展開し、<code>kflash_gui.exe</code>を実行します。</p>
+<p><img alt="kflashを起動した画面" src="../img/kflash_gui_main.png" /></p>
+<p>赤枠で囲っている項目を設定します。</p>
+<table>
+<thead>
+<tr>
+<th>引数</th>
+<th>意味</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Select File</td>
+<td>書き込むファームウェア</td>
+</tr>
+<tr>
+<td>Port</td>
+<td>COMポートを指定、環境によって異なります。<br>表示名はCH340Kになっています</td>
+</tr>
+<tr>
+<td>Baudrate</td>
+<td>ボーレートを1Mbps(=1,000,000bps)に設定<br>初期値では速すぎるため変更、1Mbpsが実用上の上限</td>
+</tr>
+</tbody>
+</table>
+<p>設定ができたら<code>Download</code>を押して書き込みを開始します。</p>
+<p>次のような画面が表示されたら書き込みは成功です。</p>
+<p><img alt="書き込み完了" src="../img/kflash_gui_ok.png" /></p>
 <h3 id="ubuntu-kflash">Ubuntu + kflash</h3>
 <p><code>Python</code>と<code>pip</code>をインストールしていない場合はインストールします。</p>
 <pre><code class="language-bash">$ sudo apt install python3 python3-pip
